@@ -8985,7 +8985,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm_ThermalVias"
+		(property "Footprint" ""
 			(at 95.25 76.2 0)
 			(effects
 				(font
@@ -9928,7 +9928,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm_ThermalVias"
+		(property "Footprint" ""
 			(at 231.14 76.2 0)
 			(effects
 				(font
@@ -10388,7 +10388,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm_ThermalVias"
+		(property "Footprint" ""
 			(at 231.14 143.51 0)
 			(effects
 				(font
@@ -12481,7 +12481,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm_ThermalVias"
+		(property "Footprint" ""
 			(at 96.52 143.51 0)
 			(effects
 				(font
