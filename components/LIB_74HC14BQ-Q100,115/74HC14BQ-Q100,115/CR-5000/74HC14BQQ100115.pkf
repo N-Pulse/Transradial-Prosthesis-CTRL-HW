@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "74HC14BQQ100115"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "74HC14BQQ100115")
+        (spec "default")
+    )
+)

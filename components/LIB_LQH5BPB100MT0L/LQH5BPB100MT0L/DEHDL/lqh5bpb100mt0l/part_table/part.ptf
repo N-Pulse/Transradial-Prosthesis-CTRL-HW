@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LQH5BPB100MT0L'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Murata Electronics", "LQH5BPB100MT0L" (!) = "", "LQH5BPB100MT0L", "Other", "81-LQH5BPB100MT0L", "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/LQH5BPB100MT0L?qs=hNud%2FORuBR2eSUAobsF5Ww%3D%3D", "LQH5BPB_T0 Series Inductor 10uH +/-20% 2020 (5050)", "https://psearch.en.murata.com/inductor/product/LQH5BPB100MT0%23.html", "2.2 mm"
+END_PART
+
+END.

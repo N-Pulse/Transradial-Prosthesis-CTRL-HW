@@ -1,0 +1,97 @@
+*PADS-LIBRARY-PART-TYPES-V9*
+
+STM32G484MET6 QFP50P1400X1400X160-80N I ANA 7 1 0 0 0
+TIMESTAMP 2024.12.14.20.23.33
+"Mouser Part Number" 511-STM32G484MET6
+"Mouser Price/Stock" https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STM32G484MET6?qs=sPbYRqrBIVmVsNfdY6f7Rg%3D%3D
+"Manufacturer_Name" STMicroelectronics
+"Manufacturer_Part_Number" STM32G484MET6
+"Description" Mainstream Arm Cortex-M4 MCU 170 MHz with 512 Kbytes of Flash memory, Math Accelerator, HR Timer, High Analog level integration, Crypto
+"Datasheet Link" https://www.st.com/resource/en/datasheet/stm32g484ce.pdf
+"Geometry.Height" 1.6mm
+GATE 1 80 0
+STM32G484MET6
+1 0 U VBAT
+2 0 U PC13
+3 0 U PC14-OSC32_IN
+4 0 U PC15-OSC32_OUT
+5 0 U PF0-OSC_IN
+6 0 U PF1-OSC_OUT
+7 0 U PG10-NRST
+8 0 U PC0
+9 0 U PC1
+10 0 U PC2
+11 0 U PC3
+12 0 U PA0
+13 0 U PA1
+14 0 U PA2
+15 0 U VSS_1
+16 0 U VDD_1
+17 0 U PA3
+18 0 U PA4
+19 0 U PA5
+20 0 U PA6
+21 0 U PA7
+22 0 U PC4
+23 0 U PC5
+24 0 U PB0
+25 0 U PB1
+26 0 U PB2
+27 0 U VSSA
+28 0 U VREF+
+29 0 U VDDA
+30 0 U PE7
+31 0 U PE8
+32 0 U PE9
+33 0 U PE10
+34 0 U PE11
+35 0 U PE12
+36 0 U PE13
+37 0 U PE14
+38 0 U PE15
+39 0 U PB10
+40 0 U VSS_2
+60 0 U PA12
+59 0 U PA11
+58 0 U PA10
+57 0 U PA9
+56 0 U PA8
+55 0 U PC9
+54 0 U PC8
+53 0 U PC7
+52 0 U PC6
+51 0 U VDD_3
+50 0 U VSS_3
+49 0 U PD10
+48 0 U PD9
+47 0 U PD8
+46 0 U PB15
+45 0 U PB14
+44 0 U PB13
+43 0 U PB12
+42 0 U PB11
+41 0 U VDD_2
+80 0 U VDD_5
+79 0 U VSS_5
+78 0 U PB9
+77 0 U PB8-BOOT0
+76 0 U PB7
+75 0 U PB6
+74 0 U PB5
+73 0 U PB4
+72 0 U PB3
+71 0 U PD2
+70 0 U PD1
+69 0 U PD0
+68 0 U PC12
+67 0 U PC11
+66 0 U PC10
+65 0 U PA15
+64 0 U PA14
+63 0 U PA13
+62 0 U VDD_4
+61 0 U VSS_4
+
+*END*
+*REMARK* SamacSys ECAD Model
+15881704/1544201/2.50/80/2/Integrated Circuit

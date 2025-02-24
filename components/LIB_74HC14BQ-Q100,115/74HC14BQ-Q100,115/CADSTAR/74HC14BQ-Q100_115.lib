@@ -1,0 +1,16 @@
+.74HC14BQ-Q100_115 :1 ;74HC(T)14-Q100 - Hex inverting Schmitt trigger@en-us
+"74HC14BQQ100115"
+*STM IC
+*NGS
+*PLB 1="1A" 2="1Y" 3="2A" 4="2Y" 5="3A" 6="3Y" 7="GND_1" 8="4Y" 9="4A" 10="5Y" 11="5A" 12="6Y" 13="6A" 14="VCC" 15="GND_2"
+*MXP 15
+*DFN 74HC14BQ-Q100_115
+~!Mouser Part Number (771-74HC14BQ-Q100115)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Nexperia/74HC14BQ-Q100115?qs=1sbE9T7hb3by%252BzLgwKmEqA%3D%3D)
+~!Manufacturer_Name (Nexperia)
+~!Manufacturer_Part_Number (74HC14BQ-Q100,115)
+~!Link Datasheet (https://assets.nexperia.com/documents/data-sheet/74HC_HCT14_Q100.pdf)
+~!Height (1mm)
+~!3D_Model (74HC14BQ-Q100,115)
+"74HC14BQ-Q100_115"
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 

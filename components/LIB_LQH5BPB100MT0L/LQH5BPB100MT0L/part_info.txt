@@ -1,0 +1,9 @@
+Manufacturer=Murata Electronics
+PartNumber=LQH5BPB100MT0L
+PartCategory=Inductor
+PackageCategory=Other
+PinCount=2
+Version=3.2
+Released=2019-09-16 08:46:06
+Downloaded=2024-12-14 20:03:21
+3D=Y

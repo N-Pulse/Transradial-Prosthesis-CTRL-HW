@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "74HC14BQ-Q100_115"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-06-30-09:59:18)
+    (mountForm default
+        (footprintRef "74HC14BQQ100115")
+        (spec "System")
+    )
+)

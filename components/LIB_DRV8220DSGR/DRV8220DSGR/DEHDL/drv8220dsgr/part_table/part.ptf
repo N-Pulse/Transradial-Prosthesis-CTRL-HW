@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'DRV8220DSGR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "DRV8220DSGR" (!) = "", "SON50P200X200X80-9N", "Small Outline No-lead", "595-DRV8220DSGR", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/DRV8220DSGR?qs=A6eO%252BMLsxmR1BpX9iMystg%3D%3D", "DRV8220DSGR", "https://www.ti.com/lit/gpn/drv8220", "0.8 mm"
+END_PART
+
+END.

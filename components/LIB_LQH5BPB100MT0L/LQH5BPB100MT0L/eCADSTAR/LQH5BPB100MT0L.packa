@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "LQH5BPB100MT0L"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-09-16-08:46:06)
+    (mountForm default
+        (footprintRef "LQH5BPB100MT0L")
+        (spec "System")
+    )
+)

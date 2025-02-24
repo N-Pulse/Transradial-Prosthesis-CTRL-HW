@@ -1,0 +1,16 @@
+.DRV8220DSGR :1 ;DRV8220DSGR
+SON50P200X200X80-9N
+*STM IC
+*NGS
+*PLB 1="VM" 2="OUT1" 3="OUT2" 4="GND" 5="IN2/EN" 6="IN1/PH" 7="MODE" 8="NSLEEP" 9="EP"
+*MXP 9
+*DFN DRV8220DSGR
+~!Mouser Part Number (595-DRV8220DSGR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/DRV8220DSGR?qs=A6eO%252BMLsxmR1BpX9iMystg%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (DRV8220DSGR)
+~!Link Datasheet (https://www.ti.com/lit/gpn/drv8220)
+~!Height (0.8mm)
+~!3D_Model (DRV8220DSGR)
+DRV8220DSGR
+1.1!U 2.1!U 3.1!U 4.1!U 9.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

@@ -1,11 +1,11 @@
 a = 4e-6;
-J = 0.01;
-C = 0.1e-6;
+J = 0.498e-7;
+C = 100e-9;
 % L = 63e-3;
-L = 100e-3;
-Km = 0.00533;
-Rm = 60;
-Lm = 1e-4;
+L = 100e-6;
+Km = 0.00966;
+Rm = 14.6;
+Lm = 5.02e-4;
 
 num = [J,  a];
 den = [L*C*Lm*J,  L*C*(Lm*a + Rm*J),  (L*J + L*C*Rm*a + Lm*J),  (Lm*a + Rm*J + L*a),  (Km*Km + Rm*a)];

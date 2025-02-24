@@ -1,0 +1,9 @@
+Manufacturer=Phoenix Contact
+PartNumber=1985234
+PartCategory=Connector
+PackageCategory=Other
+PinCount=6
+Version=3.2
+Released=2019-05-20 08:34:57
+Downloaded=2024-12-14 21:10:38
+3D=Y

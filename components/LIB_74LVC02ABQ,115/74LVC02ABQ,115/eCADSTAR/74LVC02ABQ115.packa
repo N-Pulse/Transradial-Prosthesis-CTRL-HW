@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "74LVC02ABQ_115"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-07-05-04:08:37)
+    (mountForm default
+        (footprintRef "74LVC02ABQ115")
+        (spec "System")
+    )
+)

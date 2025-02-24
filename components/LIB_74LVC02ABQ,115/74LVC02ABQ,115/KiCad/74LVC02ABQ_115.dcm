@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74LVC02ABQ,115
+D Buffer, Non-Inverting 4 Element 1 Bit per Element 3-State Output 14-DHVQFN (2.5x3)
+K
+F https://assets.nexperia.com/documents/data-sheet/74LVC02A.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '74HC14BQ_Q100_115'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Nexperia", "74HC14BQ-Q100,115" (!) = "", "74HC14BQQ100115", "Other", "771-74HC14BQ-Q100115", "https://www.mouser.co.uk/ProductDetail/Nexperia/74HC14BQ-Q100115?qs=1sbE9T7hb3by%252BzLgwKmEqA%3D%3D", "74HC(T)14-Q100 - Hex inverting Schmitt trigger@en-us", "https://assets.nexperia.com/documents/data-sheet/74HC_HCT14_Q100.pdf", "1 mm"
+END_PART
+
+END.

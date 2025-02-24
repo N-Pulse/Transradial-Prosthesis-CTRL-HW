@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '74LVC02ABQ_115'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Nexperia", "74LVC02ABQ,115" (!) = "", "74LVC02ABQ115", "Other", "771-LVC02ABQ115", "https://www.mouser.co.uk/ProductDetail/Nexperia/74LVC02ABQ115?qs=me8TqzrmIYVKyFq1%2FauiSw%3D%3D", "Buffer, Non-Inverting 4 Element 1 Bit per Element 3-State Output 14-DHVQFN (2.5x3)", "https://assets.nexperia.com/documents/data-sheet/74LVC02A.pdf", "1 mm"
+END_PART
+
+END.

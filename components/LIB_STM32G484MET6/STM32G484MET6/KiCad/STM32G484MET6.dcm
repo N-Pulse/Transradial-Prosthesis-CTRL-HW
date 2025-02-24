@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STM32G484MET6
+D Mainstream Arm Cortex-M4 MCU 170 MHz with 512 Kbytes of Flash memory, Math Accelerator, HR Timer, High Analog level integration, Crypto
+K
+F https://www.st.com/resource/en/datasheet/stm32g484ce.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+Manufacturer=Nexperia
+PartNumber=74HC14BQ-Q100,115
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=15
+Version=2.2
+Released=2019-11-12 07:41:52
+Downloaded=2025-02-06 18:50:38
+3D=Y

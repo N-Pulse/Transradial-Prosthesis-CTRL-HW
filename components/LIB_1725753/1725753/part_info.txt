@@ -1,0 +1,9 @@
+Manufacturer=Phoenix Contact
+PartNumber=1725753
+PartCategory=Connector
+PackageCategory=Other
+PinCount=12
+Version=4.1
+Released=2020-08-13 20:29:56
+Downloaded=2024-12-15 12:39:23
+3D=Y

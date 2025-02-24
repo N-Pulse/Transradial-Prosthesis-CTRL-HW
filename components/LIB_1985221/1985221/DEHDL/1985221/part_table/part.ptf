@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '1985221'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Phoenix Contact", "1985221" (!) = "", "1985221", "Other", "651-1985221", "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1985221?qs=A%2FKWGUWTCZhjhjKrroowDA%3D%3D", "PCB terminal block, nominal current: 8 A, rated voltage (III/2): 400 V, nominal cross section: 1.5 mm, number of potentials: 5, number of rows: 1, number of positions per row: 5, product range: PTSA 1,5, pitch: 3.5 mm, connection method: Push-in spring connection, mounting: Wave soldering, conductor/PCB connection direction: 45 , color: green, Pin layout: Zigzag pinning M, Solder pin [P]: 3.5 mm, number of solder pins per potential: 1, type of packaging: packed in cardboard. Offset soldering legs, two-row", "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-2/sf-00059075.pdf", "13.1 mm"
+END_PART
+
+END.

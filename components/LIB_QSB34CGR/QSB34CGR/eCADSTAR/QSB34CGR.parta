@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_1068723"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2018-10-31-10:04:15)
+    (utime 2024-09-19-14:45:22)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "QSB34CGR")
+)
+
+
+(pinAssign "ECS_1068723"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2018-10-31-10:04:15)
+    (utime 2024-09-19-14:45:22)
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_1068723")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "QSB34CGR")
+)
+
+
+(part "QSB34CGR"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2018-10-31-10:04:15)
+    (utime 2024-09-19-14:45:22)
+    (packageRef "QSB34CGR")
+    (pinAssignRef "ECS_1068723")
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "D")
+    (property "description" "IC, Fairchild, QSB34CGR")
+    (property "Mouser_Part_Number" "512-QSB34CGR")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/QSB34CGR?qs=VOMQJJE%252BBNmfgHkY03ab%252Bw%3D%3D")
+    (property "Manufacturer_Name" "onsemi")
+    (property "Manufacturer_Part_Number" "QSB34CGR")
+    (property "Datasheet_Link" "http://www.onsemi.com/pub/Collateral/QSB34-D.PDF")
+    (property "compAreaTopHeight" 1.8)
+)
+
+

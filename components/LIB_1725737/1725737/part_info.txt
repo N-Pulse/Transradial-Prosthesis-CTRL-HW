@@ -1,0 +1,9 @@
+Manufacturer=Phoenix Contact
+PartNumber=1725737
+PartCategory=Connector
+PackageCategory=Other
+PinCount=10
+Version=5.1
+Released=2020-09-25 09:30:02
+Downloaded=2024-12-15 16:41:01
+3D=Y

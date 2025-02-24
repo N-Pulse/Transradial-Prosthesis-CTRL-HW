@@ -1,0 +1,226 @@
+
+(EDIF
+  (rename &74HC14BQ_Q100_115 "74HC14BQ_Q100_115")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2025 02 06 18 50 38)
+      (dataOrigin "1733932/1544201/2.50/15/2/Integrated Circuit")
+      (program "SamacSys ECAD Model 74HC14BQ_Q100_115"
+        (version "2.2"))))
+  (library
+  (rename &74HC14BQ_Q100_115 "74HC14BQ_Q100_115")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition (scale 1 (e 254 -6) (unit DISTANCE)))
+      (userData GRIDRESOLUTION (integer 50 50))
+      (figureGroup DEFAULT (pathWidth 10) (textHeight 100))
+      (figureGroup PROPERTY (pathWidth 10) (textHeight 90))
+      (figureGroup PINNUMBER (pathWidth 10) (textHeight 90))
+      (figureGroup PINNAME (pathWidth 10) (textHeight 90))
+      (figureGroup COMMENT (pathWidth 10) (textHeight 90))
+      (figureGroup PIN (pathWidth 10) (textHeight 90))
+      (figureGroup GRAPHIC (pathWidth 10) (textHeight 100))
+    )
+    (cell
+      (rename &74HC14BQ_Q100_115 "74HC14BQ_Q100_115")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "IC")
+          (property (rename PACKAGENAME "PackageName") (string "74HC14BQ_Q100_115"))
+          (property (rename ISHETEROGENEOUS "IsHeterogeneous") (string "False"))
+          (property (rename DEVICESINVIEW "DevicesInView") (string "1"))
+          (property (rename DEVICESINPACKAGE "DevicesInPackage") (string "1"))
+          (property (rename DEVICEDESIGNATOR "DeviceDesignator") (string "A"))
+          (property (rename DEVICENUMBERING "DeviceNumbering") (string "Alpha"))
+          (property (rename PCB_32_FOOTPRINT "PCB Footprint") (string "74HC14BQQ100115"))
+          (property (rename &Mouser_Part_Number "Mouser Part Number") (string "771-74HC14BQ-Q100115"))
+          (property (rename &Mouser_Price_Stock "Mouser Price/Stock") (string "https://www.mouser.co.uk/ProductDetail/Nexperia/74HC14BQ-Q100115?qs=1sbE9T7hb3by%252BzLgwKmEqA%3D%3D"))
+          (property (rename &Manufacturer_Name "Manufacturer_Name") (string "Nexperia"))
+          (property (rename &Manufacturer_Part_Number "Manufacturer_Part_Number") (string "74HC14BQ-Q100,115"))
+          (property (rename &Description "Description") (string "74HC(T)14-Q100 - Hex inverting Schmitt trigger@en-us"))
+          (property (rename &Datasheet_Link "Datasheet Link") (string "https://assets.nexperia.com/documents/data-sheet/74HC_HCT14_Q100.pdf"))
+          (property (rename &Height "Height") (string "1 mm"))
+          (property (rename &_60__32_VALUE_32__62_ "Value") (string "74HC14BQ_Q100_115"))
+          (property (rename VALUE "Value") (string "Value"))
+          (port
+            (rename &1A "1A")
+            (designator "1")
+            (property (rename ORDER "Order") (string "0") (owner "OrCAD"))
+          )
+          (port
+            (rename &1Y "1Y")
+            (designator "2")
+            (property (rename ORDER "Order") (string "1") (owner "OrCAD"))
+          )
+          (port
+            (rename &2A "2A")
+            (designator "3")
+            (property (rename ORDER "Order") (string "2") (owner "OrCAD"))
+          )
+          (port
+            (rename &2Y "2Y")
+            (designator "4")
+            (property (rename ORDER "Order") (string "3") (owner "OrCAD"))
+          )
+          (port
+            (rename &3A "3A")
+            (designator "5")
+            (property (rename ORDER "Order") (string "4") (owner "OrCAD"))
+          )
+          (port
+            (rename &3Y "3Y")
+            (designator "6")
+            (property (rename ORDER "Order") (string "5") (owner "OrCAD"))
+          )
+          (port
+            (rename &GND_1 "GND_1")
+            (designator "7")
+            (property (rename ORDER "Order") (string "6") (owner "OrCAD"))
+          )
+          (port
+            (rename &4Y "4Y")
+            (designator "8")
+            (property (rename ORDER "Order") (string "7") (owner "OrCAD"))
+          )
+          (port
+            (rename &4A "4A")
+            (designator "9")
+            (property (rename ORDER "Order") (string "8") (owner "OrCAD"))
+          )
+          (port
+            (rename &5Y "5Y")
+            (designator "10")
+            (property (rename ORDER "Order") (string "9") (owner "OrCAD"))
+          )
+          (port
+            (rename &5A "5A")
+            (designator "11")
+            (property (rename ORDER "Order") (string "10") (owner "OrCAD"))
+          )
+          (port
+            (rename &6Y "6Y")
+            (designator "12")
+            (property (rename ORDER "Order") (string "11") (owner "OrCAD"))
+          )
+          (port
+            (rename &6A "6A")
+            (designator "13")
+            (property (rename ORDER "Order") (string "12") (owner "OrCAD"))
+          )
+          (port
+            (rename &VCC "VCC")
+            (designator "14")
+            (property (rename ORDER "Order") (string "13") (owner "OrCAD"))
+          )
+          (port
+            (rename &GND_2 "GND_2")
+            (designator "15")
+            (property (rename ORDER "Order") (string "14") (owner "OrCAD"))
+          )
+          (symbol
+            (portImplementation
+              (name &1A (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -600) (pt 0 -600))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -600))))
+            )
+            (portImplementation
+              (name &1Y (display PINNAME))
+              (figure PIN (path (pointList (pt 100 -1100) (pt 100 -900))))
+              (connectLocation (figure GRAPHIC (dot (pt 100 -1100))))
+            )
+            (portImplementation
+              (name &2A (display PINNAME))
+              (figure PIN (path (pointList (pt 200 -1100) (pt 200 -900))))
+              (connectLocation (figure GRAPHIC (dot (pt 200 -1100))))
+            )
+            (portImplementation
+              (name &2Y (display PINNAME))
+              (figure PIN (path (pointList (pt 300 -1100) (pt 300 -900))))
+              (connectLocation (figure GRAPHIC (dot (pt 300 -1100))))
+            )
+            (portImplementation
+              (name &3A (display PINNAME))
+              (figure PIN (path (pointList (pt 400 -1100) (pt 400 -900))))
+              (connectLocation (figure GRAPHIC (dot (pt 400 -1100))))
+            )
+            (portImplementation
+              (name &3Y (display PINNAME))
+              (figure PIN (path (pointList (pt 500 -1100) (pt 500 -900))))
+              (connectLocation (figure GRAPHIC (dot (pt 500 -1100))))
+            )
+            (portImplementation
+              (name &GND_1 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 700 -600) (pt 900 -600))))
+              (connectLocation (figure GRAPHIC (dot (pt 900 -600))))
+            )
+            (portImplementation
+              (name &4Y (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 700 -500) (pt 900 -500))))
+              (connectLocation (figure GRAPHIC (dot (pt 900 -500))))
+            )
+            (portImplementation
+              (name &4A (display PINNAME))
+              (figure PIN (path (pointList (pt 600 200) (pt 600 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 600 200))))
+            )
+            (portImplementation
+              (name &5Y (display PINNAME))
+              (figure PIN (path (pointList (pt 500 200) (pt 500 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 500 200))))
+            )
+            (portImplementation
+              (name &5A (display PINNAME))
+              (figure PIN (path (pointList (pt 400 200) (pt 400 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 400 200))))
+            )
+            (portImplementation
+              (name &6Y (display PINNAME))
+              (figure PIN (path (pointList (pt 300 200) (pt 300 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 300 200))))
+            )
+            (portImplementation
+              (name &6A (display PINNAME))
+              (figure PIN (path (pointList (pt 200 200) (pt 200 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 200 200))))
+            )
+            (portImplementation
+              (name &VCC (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -500) (pt 0 -500))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -500))))
+            )
+            (portImplementation
+              (name &GND_2 (display PINNAME))
+              (figure PIN (path (pointList (pt 100 200) (pt 100 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 100 200))))
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 0 0)
+                  (pt 700 0)
+                  (pt 700 -900)
+                  (pt 0 -900)
+                  (pt 0 0)
+                )
+              )
+            )
+            (keywordDisplay DESIGNATOR (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 750 130))))
+            (propertyDisplay &_60__32_VALUE_32__62_ (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 750 30))))
+          )
+        )
+      )
+    )
+  )
+)

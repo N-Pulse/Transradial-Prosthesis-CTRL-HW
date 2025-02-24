@@ -1,0 +1,16 @@
+.74LVC02ABQ_115 :1 ;Buffer, Non-Inverting 4 Element 1 Bit per Element 3-State Output 14-DHVQFN (2.5x3)
+"74LVC02ABQ115"
+*STM IC
+*NGS
+*PLB 1="1Y" 2="1A" 3="1B" 4="2Y" 5="2A" 6="2B" 7="GND_1" 8="3A" 9="3B" 10="3Y" 11="4A" 12="4B" 13="4Y" 14="VCC" 15="GND_2"
+*MXP 15
+*DFN 74LVC02ABQ_115
+~!Mouser Part Number (771-LVC02ABQ115)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Nexperia/74LVC02ABQ115?qs=me8TqzrmIYVKyFq1%2FauiSw%3D%3D)
+~!Manufacturer_Name (Nexperia)
+~!Manufacturer_Part_Number (74LVC02ABQ,115)
+~!Link Datasheet (https://assets.nexperia.com/documents/data-sheet/74LVC02A.pdf)
+~!Height (1mm)
+~!3D_Model (74LVC02ABQ,115)
+"74LVC02ABQ_115"
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 

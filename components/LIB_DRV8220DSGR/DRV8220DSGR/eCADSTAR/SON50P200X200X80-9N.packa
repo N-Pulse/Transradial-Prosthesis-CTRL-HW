@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "DRV8220DSGR"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-05-21-13:17:12)
+    (mountForm default
+        (footprintRef "SON50P200X200X80-9N")
+        (spec "System")
+    )
+)

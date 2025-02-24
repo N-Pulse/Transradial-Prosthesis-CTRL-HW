@@ -1,0 +1,9 @@
+Manufacturer=STMicroelectronics
+PartNumber=STM32G484MET6
+PartCategory=Integrated Circuit
+PackageCategory=Quad Flat Packages
+PinCount=80
+Version=4.1
+Released=2022-02-20 04:14:53
+Downloaded=2024-12-14 20:23:33
+3D=Y

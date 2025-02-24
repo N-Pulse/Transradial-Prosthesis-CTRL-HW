@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP TXU0202QDCURQ1
-D Translation - Voltage Levels Automotive two channel fixed-direction level shifter with channels in opposite direction
-K
-F https://www.ti.com/lit/ds/symlink/txu0202-q1.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1679392613568&ref_url=https%253A%252F%252Fwww.mouser.fr%252F
-$ENDCMP
-#
-#End Doc Library

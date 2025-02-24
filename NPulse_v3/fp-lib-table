@@ -1,0 +1,13 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "DRV8220DSGR")(type "KiCad")(uri "/Users/daniel/pCloud Drive/EPFL/NPulse/Transradial-Prosthesis-CTRL-HW/components/DRV8220DSGR/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "10uH_bob")(type "KiCad")(uri "/Users/daniel/pCloud Drive/EPFL/NPulse/Transradial-Prosthesis-CTRL-HW/components/LIB_LQH5BPB100MT0L/LQH5BPB100MT0L/KiCad")(options "")(descr ""))
+  (lib (name "STM32G484MET6")(type "KiCad")(uri "/Users/daniel/pCloud Drive/EPFL/NPulse/Transradial-Prosthesis-CTRL-HW/components/LIB_STM32G484MET6/STM32G484MET6/KiCad")(options "")(descr ""))
+  (lib (name "TXU")(type "KiCad")(uri "/Users/daniel/pCloud Drive/EPFL/NPulse/Transradial-Prosthesis-CTRL-HW/components/LIB_TXU0202DCUR/TXU0202DCUR/KiCad")(options "")(descr ""))
+  (lib (name "Photodiode")(type "KiCad")(uri "/Users/daniel/pCloud Drive/EPFL/NPulse/Transradial-Prosthesis-CTRL-HW/components/LIB_QSB34CGR/QSB34CGR/KiCad")(options "")(descr ""))
+  (lib (name "PMOS")(type "KiCad")(uri "/Users/daniel/pCloud Drive/EPFL/NPulse/Transradial-Prosthesis-CTRL-HW/components/LIB_BSS84/BSS84/KiCad")(options "")(descr ""))
+  (lib (name "NMOS")(type "KiCad")(uri "/Users/daniel/pCloud Drive/EPFL/NPulse/Transradial-Prosthesis-CTRL-HW/components/LIB_BSS138/BSS138/KiCad")(options "")(descr ""))
+  (lib (name "Conn_Motor")(type "KiCad")(uri "/Users/daniel/pCloud Drive/EPFL/NPulse/Transradial-Prosthesis-CTRL-HW/components/LIB_1985234/1985234/KiCad")(options "")(descr ""))
+  (lib (name "Conn_FSR")(type "KiCad")(uri "/Users/daniel/pCloud Drive/EPFL/NPulse/Transradial-Prosthesis-CTRL-HW/components/LIB_1985221/1985221/KiCad")(options "")(descr ""))
+  (lib (name "Bornier10")(type "KiCad")(uri "/Users/daniel/pCloud Drive/EPFL/NPulse/Transradial-Prosthesis-CTRL-HW/components/LIB_1725737/1725737/KiCad")(options "")(descr ""))
+)

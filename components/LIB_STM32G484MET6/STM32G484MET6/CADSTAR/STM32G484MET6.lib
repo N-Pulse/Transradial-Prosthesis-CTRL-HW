@@ -1,0 +1,18 @@
+.STM32G484MET6 :1 ;Mainstream Arm Cortex-M4 MCU 170 MHz with 512 Kbytes of Flash memory, Math Accelerator, HR Timer, High Analog level integration, Crypto
+QFP50P1400X1400X160-80N
+*STM IC
+*NGS
+*PLB 1="VBAT" 2="PC13" 3="PC14-OSC32_IN" 4="PC15-OSC32_OUT" 5="PF0-OSC_IN" 6="PF1-OSC_OUT" 7="PG10-NRST" 8="PC0" 9="PC1" 10="PC2" 11="PC3" 12="PA0" 13="PA1" 14="PA2" 15="VSS_1" 16="VDD_1" 17="PA3" 18="PA4" 19="PA5" 20="PA6" 21="PA7" 22="PC4" 23="PC5" 24="PB0" 25="PB1" 26="PB2" 27="VSSA" 28="VREF+" 29="VDDA" 30="PE7" 31="PE8" 32="PE9" 33="PE10" 34="PE11" 35="PE12" 36="PE13" 37="PE14" 38="PE15" 39="PB10" 40="VSS_2" 41="VDD_2" 42="PB11" 43="PB12" 44="PB13" &
+45="PB14" 46="PB15" 47="PD8" 48="PD9" 49="PD10" 50="VSS_3" 51="VDD_3" 52="PC6" 53="PC7" 54="PC8" 55="PC9" 56="PA8" 57="PA9" 58="PA10" 59="PA11" 60="PA12" 61="VSS_4" 62="VDD_4" 63="PA13" 64="PA14" 65="PA15" 66="PC10" 67="PC11" 68="PC12" 69="PD0" 70="PD1" 71="PD2" 72="PB3" 73="PB4" 74="PB5" 75="PB6" 76="PB7" 77="PB8-BOOT0" 78="PB9" 79="VSS_5" 80="VDD_5"
+*MXP 80
+*DFN STM32G484MET6
+~!Mouser Part Number (511-STM32G484MET6)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STM32G484MET6?qs=sPbYRqrBIVmVsNfdY6f7Rg%3D%3D)
+~!Manufacturer_Name (STMicroelectronics)
+~!Manufacturer_Part_Number (STM32G484MET6)
+~!Link Datasheet (https://www.st.com/resource/en/datasheet/stm32g484ce.pdf)
+~!Height (1.6mm)
+~!3D_Model (STM32G484MET6)
+STM32G484MET6
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 16.1!U 17.1!U 18.1!U 19.1!U 20.1!U 21.1!U 22.1!U 23.1!U 24.1!U 25.1!U 26.1!U 27.1!U 28.1!U 29.1!U 30.1!U 31.1!U 32.1!U 33.1!U 34.1!U 35.1!U 36.1!U 37.1!U 38.1!U 39.1!U 40.1!U 60.1!U 59.1!U 58.1!U 57.1!U 56.1!U 55.1!U 54.1!U 53.1!U 52.1!U 51.1!U 50.1!U 49.1!U 48.1!U 47.1!U 46.1!U 45.1!U 44.1!U 43.1!U 42.1!U 41.1!U 80.1!U 79.1!U 78.1!U 77.1!U 76.1!U 75.1!U &
+74.1!U 73.1!U 72.1!U 71.1!U 70.1!U 69.1!U 68.1!U 67.1!U 66.1!U 65.1!U 64.1!U 63.1!U 62.1!U 61.1!U 
