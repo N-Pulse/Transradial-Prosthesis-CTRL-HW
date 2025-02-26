@@ -1,0 +1,16 @@
+.TXU0202DCUR :1 ;Translation - Voltage Levels Two channel fixed-direction level shifter with channels in opposite direction
+SOP50P310X90-8N
+*STM IC
+*NGS
+*PLB 1="B2" 2="GND" 3="VCCA" 4="A2Y" 5="A1" 6="OE" 7="VCCB" 8="B1Y"
+*MXP 8
+*DFN TXU0202DCUR
+~!Mouser Part Number (595-TXU0202DCUR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TXU0202DCUR?qs=t7xnP681wgVssPLUozppFA%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (TXU0202DCUR)
+~!Link Datasheet (https://www.ti.com/product/ja-jp/TXU0202)
+~!Height (0.9mm)
+~!3D_Model (TXU0202DCUR)
+TXU0202DCUR
+1.1!I 2.1!G 3.1!P 4.1!Y 8.1!Y 7.1!P 6.1!I 5.1!I 

@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "TL3305BF100QG"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-08-28-10:58:19)
+    (mountForm default
+        (footprintRef "TL3305BF160QG")
+        (spec "System")
+    )
+)

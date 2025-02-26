@@ -1,13 +1,15 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "e4fa9518-8968-4358-a716-4f3c8e0e7838")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_02x05_Odd_Even"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -74,30 +76,19 @@
 			)
 			(symbol "Conn_02x05_Odd_Even_1_1"
 				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
+					(start -1.27 6.35)
+					(end 3.81 -6.35)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
+					(start -1.27 5.207)
+					(end 0 4.953)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -118,8 +109,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 5.207)
-					(end 0 4.953)
+					(start -1.27 0.127)
+					(end 0 -0.127)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -129,19 +120,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 6.35)
-					(end 3.81 -6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -4.953)
-					(end 2.54 -5.207)
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -151,8 +131,8 @@
 					)
 				)
 				(rectangle
-					(start 3.81 -2.413)
-					(end 2.54 -2.667)
+					(start -1.27 -4.953)
+					(end 0 -5.207)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -162,8 +142,8 @@
 					)
 				)
 				(rectangle
-					(start 3.81 0.127)
-					(end 2.54 -0.127)
+					(start 3.81 5.207)
+					(end 2.54 4.953)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -184,8 +164,30 @@
 					)
 				)
 				(rectangle
-					(start 3.81 5.207)
-					(end 2.54 4.953)
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -4.953)
+					(end 2.54 -5.207)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -213,42 +215,6 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -5.08 180)
-					(length 3.81)
-					(name "Pin_10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 5.08 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_3"
@@ -259,24 +225,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -303,24 +251,6 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "Pin_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_7"
@@ -331,6 +261,78 @@
 						)
 					)
 					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 5.08 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -357,16 +359,16 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at 7.62 -5.08 180)
 					(length 3.81)
-					(name "Pin_9"
+					(name "Pin_10"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "9"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -375,9 +377,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -450,7 +455,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -462,7 +467,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -511,9 +516,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -632,8 +640,9 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
-		(symbol "Regulator_Linear:TLV70233_WSON6"
+		(symbol "Regulator_Linear:TPS7A0533PDBZ"
 			(pin_names
 				(offset 0.254)
 			)
@@ -641,15 +650,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -3.81 5.715 0)
+				(at -3.81 3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "TLV70233_WSON6"
-				(at 0 5.715 0)
+			(property "Value" "TPS7A0533PDBZ"
+				(at 0 3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -657,18 +666,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_SON:WSON-6_1.5x1.5mm_P0.5mm"
-				(at 0 8.255 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv702.pdf"
-				(at 0 1.27 0)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -676,7 +675,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "300mA Low Dropout Voltage Regulator, Fixed Output 3.3V, WSON6"
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps7a05.pdf"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "200-mA Ultra-Low-Iq LDO, 3.3V, SOT-23-3"
 				(at 0 0 0)
 				(effects
 					(font
@@ -685,7 +693,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "300mA LDO Regulator Fixed Positive"
+			(property "ki_keywords" "Single Output LDO Low-Iq"
 				(at 0 0 0)
 				(effects
 					(font
@@ -694,7 +702,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "WSON*"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -703,10 +711,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "TLV70233_WSON6_0_1"
+			(symbol "TPS7A0533PDBZ_0_1"
 				(rectangle
-					(start -5.08 4.445)
-					(end 5.08 -5.08)
+					(start -5.08 -5.08)
+					(end 5.08 1.905)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -716,18 +724,18 @@
 					)
 				)
 			)
-			(symbol "TLV70233_WSON6_1_1"
+			(symbol "TPS7A0533PDBZ_1_1"
 				(pin power_in line
-					(at -7.62 2.54 0)
+					(at -7.62 0 0)
 					(length 2.54)
-					(name "IN"
+					(name "VI"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -745,7 +753,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -754,70 +762,16 @@
 					)
 				)
 				(pin power_out line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
 					(at 7.62 0 180)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -2.54 -5.08 90)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 0 0)
 					(length 2.54)
-					(name "EN"
+					(name "VO"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -826,12 +780,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+12V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -903,7 +862,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -915,7 +874,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -946,12 +905,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3.3V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1023,7 +987,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1035,7 +999,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1066,12 +1030,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+5V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1143,7 +1112,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1155,7 +1124,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1186,12 +1155,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1282,7 +1256,41 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "Connector\n62131021921\nMO: 710-62131021921 "
+		(exclude_from_sim no)
+		(at 110.998 144.78 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left)
+		)
+		(uuid "453f2bae-2c04-46bd-be3c-030f63d115b4")
+	)
+	(text "Voltage regulator (LDO)\nTPS7A0533PDBZR\nMO: 595-TPS7A0533PDBZR\n "
+		(exclude_from_sim no)
+		(at 139.446 123.952 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left)
+		)
+		(uuid "b05a912e-b9e9-4e56-88fa-131585a3de62")
+	)
+	(text "Connector\n62131021921\nMO: 710-62131021921 "
+		(exclude_from_sim no)
+		(at 96.774 90.932 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left)
+		)
+		(uuid "ddd1b884-6aa1-450f-9c97-1f17e3515bd7")
 	)
 	(junction
 		(at 105.41 134.62)
@@ -1295,12 +1303,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1d9eede0-5865-496e-9a2c-33a57ac39dd2")
-	)
-	(junction
-		(at 138.43 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "20a16ced-316d-4385-af79-a04d73eb2a9c")
 	)
 	(junction
 		(at 177.8 83.82)
@@ -1321,6 +1323,12 @@
 		(uuid "31d257a5-5dc6-46c6-95a2-7a985649d74f")
 	)
 	(junction
+		(at 129.54 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8923559f-f9a4-4fd8-ae07-31c7037a2a98")
+	)
+	(junction
 		(at 120.65 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1331,6 +1339,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8c17a12-3efb-493e-9aeb-5a514ec305a4")
+	)
+	(junction
+		(at 138.43 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b156e40a-ae12-4955-b6aa-a0d09ba9fd8e")
 	)
 	(junction
 		(at 199.39 86.36)
@@ -1345,16 +1359,16 @@
 		(uuid "bc341204-5d59-4f13-ac86-239a1ece59ad")
 	)
 	(junction
-		(at 120.65 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d35c186d-dcd3-46b8-970e-518e1f667106")
-	)
-	(junction
 		(at 134.62 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de857315-655f-4631-9776-abb41158e9a3")
+	)
+	(junction
+		(at 120.65 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e63a351c-6e09-4555-bae5-1fd846087091")
 	)
 	(junction
 		(at 156.21 81.28)
@@ -1374,15 +1388,19 @@
 		(color 0 0 0 0)
 		(uuid "f5076d92-c42b-48d5-84e9-889c3be6c3a7")
 	)
-	(junction
-		(at 120.65 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f940e568-7f6e-4d00-897f-7200a3daaa95")
+	(wire
+		(pts
+			(xy 137.16 118.11) (xy 138.43 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0227f9f6-6559-4acf-a8c9-a3852cc91940")
 	)
 	(wire
 		(pts
-			(xy 120.65 119.38) (xy 120.65 129.54)
+			(xy 120.65 118.11) (xy 120.65 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1462,6 +1480,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 116.84) (xy 138.43 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28f03cfa-9cf5-4c12-8b53-f83d878350a9")
+	)
+	(wire
+		(pts
 			(xy 113.03 66.04) (xy 113.03 64.77)
 		)
 		(stroke
@@ -1502,13 +1530,13 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 116.84) (xy 138.43 119.38)
+			(xy 138.43 118.11) (xy 139.7 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "357f8fa0-765f-47c7-9273-31a4916aabca")
+		(uuid "35023915-5806-4b09-ba44-ceb10489ab0a")
 	)
 	(wire
 		(pts
@@ -1569,16 +1597,6 @@
 			(type default)
 		)
 		(uuid "4c03cabe-9b31-40f2-861e-4af13df854fe")
-	)
-	(wire
-		(pts
-			(xy 121.92 119.38) (xy 120.65 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c9983c8-e497-4083-9bf4-f817539aff70")
 	)
 	(wire
 		(pts
@@ -1662,16 +1680,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 119.38) (xy 139.7 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "750778ce-57e1-4d0b-8785-e5a6924656cb")
-	)
-	(wire
-		(pts
 			(xy 129.54 67.31) (xy 129.54 68.58)
 		)
 		(stroke
@@ -1722,7 +1730,17 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 116.84) (xy 120.65 116.84)
+			(xy 129.54 107.95) (xy 129.54 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ce6a6ef-93c1-4b25-b834-bbb32242b6d1")
+	)
+	(wire
+		(pts
+			(xy 121.92 118.11) (xy 120.65 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1732,7 +1750,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 116.84) (xy 120.65 119.38)
+			(xy 120.65 116.84) (xy 120.65 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1872,7 +1890,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 107.95) (xy 138.43 107.95)
+			(xy 120.65 107.95) (xy 129.54 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1919,6 +1937,16 @@
 			(type default)
 		)
 		(uuid "c3de1aba-c133-44b7-ad44-bbe1ed1a9e95")
+	)
+	(wire
+		(pts
+			(xy 129.54 107.95) (xy 138.43 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca1ed732-7815-4461-ac10-b9a02a11d96f")
 	)
 	(wire
 		(pts
@@ -1982,16 +2010,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 119.38) (xy 138.43 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e750202c-a515-4c28-9b97-c8b38f8f08f6")
-	)
-	(wire
-		(pts
 			(xy 107.95 76.2) (xy 113.03 76.2)
 		)
 		(stroke
@@ -2022,6 +2040,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 106.68) (xy 129.54 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7d1b173-4487-4853-80fc-3dd39a15d2f5")
+	)
+	(wire
+		(pts
 			(xy 120.65 129.54) (xy 121.92 129.54)
 		)
 		(stroke
@@ -2029,38 +2057,6 @@
 			(type default)
 		)
 		(uuid "fb05bade-b234-497b-a07a-de493e09691d")
-	)
-	(wire
-		(pts
-			(xy 129.54 109.22) (xy 129.54 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc1f1daf-2db5-4e2a-9ba9-a51dc2d7744a")
-	)
-	(text "Connector\n62131021921\nMO: 710-62131021921 "
-		(exclude_from_sim no)
-		(at 110.998 144.78 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-			)
-			(justify left)
-		)
-		(uuid "453f2bae-2c04-46bd-be3c-030f63d115b4")
-	)
-	(text "Connector\n62131021921\nMO: 710-62131021921 "
-		(exclude_from_sim no)
-		(at 96.774 90.932 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-			)
-			(justify left)
-		)
-		(uuid "ddd1b884-6aa1-450f-9c97-1f17e3515bd7")
 	)
 	(global_label "FSR1"
 		(shape input)
@@ -2834,6 +2830,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Linear:TPS7A0533PDBZ")
+		(at 129.54 118.11 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2503c6cd-c97d-4c7f-90bc-b3f9a24140c1")
+		(property "Reference" "U10"
+			(at 129.54 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS7A0533PDBZ"
+			(at 129.54 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 129.54 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps7a05.pdf"
+			(at 129.54 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "200-mA Ultra-Low-Iq LDO, 3.3V, SOT-23-3"
+			(at 129.54 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b378825b-ee23-4366-bd6e-5c162bdce2df")
+		)
+		(pin "1"
+			(uuid "9433cdb9-556a-4370-954b-68bb75bd339d")
+		)
+		(pin "2"
+			(uuid "73bff5e7-c9a1-44d8-bcce-e763cda9fd34")
+		)
+		(instances
+			(project ""
+				(path "/1b9ce217-75d5-40c4-b78f-f756c7214a1a/ef5f11fa-4a72-4e99-9c97-9861b07fbf4f"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 151.13 69.85 0)
 		(unit 1)
@@ -3445,7 +3512,7 @@
 		(dnp no)
 		(uuid "908bb8e4-0ffa-458a-a766-489e6bd4986f")
 		(property "Reference" "J10"
-			(at 107.95 121.92 0)
+			(at 111.506 126.746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3458,6 +3525,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_2x05_P2.00mm_Vertical_SMD"
@@ -4481,7 +4549,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 139.7 119.38 270)
+		(at 139.7 118.11 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4491,7 +4559,7 @@
 		(fields_autoplaced yes)
 		(uuid "ef4e5dcd-b924-44d2-a5ad-f3e07028d069")
 		(property "Reference" "#PWR037"
-			(at 135.89 119.38 0)
+			(at 135.89 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4500,7 +4568,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 143.51 119.3801 90)
+			(at 143.51 118.1101 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4509,7 +4577,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 119.38 0)
+			(at 139.7 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4518,7 +4586,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 119.38 0)
+			(at 139.7 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4527,7 +4595,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 139.7 119.38 0)
+			(at 139.7 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4679,88 +4747,6 @@
 			(project "NPulse_v4"
 				(path "/1b9ce217-75d5-40c4-b78f-f756c7214a1a/ef5f11fa-4a72-4e99-9c97-9861b07fbf4f"
 					(reference "#PWR096")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:TLV70233_WSON6")
-		(at 129.54 116.84 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f74045b8-5dca-46f5-a439-00575916bcc1")
-		(property "Reference" "U11"
-			(at 129.54 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLV70233_WSON6"
-			(at 129.54 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SON:Texas_X2SON-4_1x1mm_P0.65mm"
-			(at 129.54 125.095 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv702.pdf"
-			(at 129.54 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "300mA Low Dropout Voltage Regulator, Fixed Output 3.3V, WSON6"
-			(at 129.54 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "895d27ce-6882-40ef-8f49-cefaad0ec5f4")
-		)
-		(pin "6"
-			(uuid "a7fd1d2a-f8cb-4fbc-bd56-6a77762e140e")
-		)
-		(pin "4"
-			(uuid "14786c9b-2e15-4d4d-a8fd-d16d6ed10c71")
-		)
-		(pin "5"
-			(uuid "2f199e39-e88e-4770-b4ae-e65f802a19c1")
-		)
-		(pin "2"
-			(uuid "c89934a1-a0e3-4007-9ccc-9055f807dbc4")
-		)
-		(pin "3"
-			(uuid "ba0d6d9f-f8e1-4a56-b26d-a11bc23c7158")
-		)
-		(instances
-			(project ""
-				(path "/1b9ce217-75d5-40c4-b78f-f756c7214a1a/ef5f11fa-4a72-4e99-9c97-9861b07fbf4f"
-					(reference "U11")
 					(unit 1)
 				)
 			)

@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "new_components")(type "KiCad")(uri "${KIPRJMOD}/new_components.kicad_sym")(options "")(descr ""))
   (lib (name "bornier")(type "KiCad")(uri "/Users/daniel/pCloud Drive/EPFL/NPulse/Transradial-Prosthesis-CTRL-HW/components/LIB_1725753/1725753/KiCad/1725753.kicad_sym")(options "")(descr ""))
+  (lib (name "TXU0202")(type "KiCad")(uri "/Users/daniel/pCloud Drive/EPFL/NPulse/Transradial-Prosthesis-CTRL-HW/components/LIB_TXU0202DCUR 2/TXU0202DCUR/KiCad/TXU0202DCUR.kicad_sym")(options "")(descr ""))
 )

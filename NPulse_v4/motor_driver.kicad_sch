@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "681adb9b-d932-4fd4-9ef3-d8c7c6f664e8")
 	(paper "A3")
 	(lib_symbols
@@ -83,9 +83,9 @@
 			)
 			(symbol "74HC02_1_1"
 				(arc
-					(start -3.81 -3.81)
+					(start -3.81 3.81)
 					(mid -2.589 0)
-					(end -3.81 3.81)
+					(end -3.81 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -94,10 +94,10 @@
 						(type none)
 					)
 				)
-				(arc
-					(start -0.6096 -3.81)
-					(mid 2.1842 -2.5851)
-					(end 3.81 0)
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -0.635 3.81)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -118,10 +118,22 @@
 						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy -3.81 3.81) (xy -0.635 3.81)
+				(arc
+					(start 3.81 0)
+					(mid 2.1855 -2.584)
+					(end -0.6096 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
 					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -0.6096 3.81)
+					(mid 2.1928 2.5924)
+					(end 3.81 0)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -142,36 +154,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-				(arc
-					(start 3.81 0)
-					(mid 2.1915 2.5936)
-					(end -0.6096 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin output inverted
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 				(pin input line
@@ -203,6 +185,24 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -213,9 +213,9 @@
 			)
 			(symbol "74HC02_1_2"
 				(arc
-					(start 0 -3.81)
+					(start 0 3.81)
 					(mid 3.7934 0)
-					(end 0 3.81)
+					(end 0 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -234,24 +234,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 				(pin input inverted
@@ -290,12 +272,30 @@
 						)
 					)
 				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(symbol "74HC02_2_1"
 				(arc
-					(start -3.81 -3.81)
+					(start -3.81 3.81)
 					(mid -2.589 0)
-					(end -3.81 3.81)
+					(end -3.81 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -304,10 +304,10 @@
 						(type none)
 					)
 				)
-				(arc
-					(start -0.6096 -3.81)
-					(mid 2.1842 -2.5851)
-					(end 3.81 0)
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -0.635 3.81)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -328,10 +328,22 @@
 						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy -3.81 3.81) (xy -0.635 3.81)
+				(arc
+					(start 3.81 0)
+					(mid 2.1855 -2.584)
+					(end -0.6096 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
 					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -0.6096 3.81)
+					(mid 2.1928 2.5924)
+					(end 3.81 0)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -352,36 +364,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-				(arc
-					(start 3.81 0)
-					(mid 2.1915 2.5936)
-					(end -0.6096 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin output inverted
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 				(pin input line
@@ -413,6 +395,24 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -423,9 +423,9 @@
 			)
 			(symbol "74HC02_2_2"
 				(arc
-					(start 0 -3.81)
+					(start 0 3.81)
 					(mid 3.7934 0)
-					(end 0 3.81)
+					(end 0 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -444,24 +444,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 				(pin input inverted
@@ -500,12 +482,30 @@
 						)
 					)
 				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(symbol "74HC02_3_1"
 				(arc
-					(start -3.81 -3.81)
+					(start -3.81 3.81)
 					(mid -2.589 0)
-					(end -3.81 3.81)
+					(end -3.81 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -514,10 +514,10 @@
 						(type none)
 					)
 				)
-				(arc
-					(start -0.6096 -3.81)
-					(mid 2.1842 -2.5851)
-					(end 3.81 0)
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -0.635 3.81)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -538,10 +538,22 @@
 						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy -3.81 3.81) (xy -0.635 3.81)
+				(arc
+					(start 3.81 0)
+					(mid 2.1855 -2.584)
+					(end -0.6096 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
 					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -0.6096 3.81)
+					(mid 2.1928 2.5924)
+					(end 3.81 0)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -564,16 +576,40 @@
 						(type background)
 					)
 				)
-				(arc
-					(start 3.81 0)
-					(mid 2.1915 2.5936)
-					(end -0.6096 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 4.318)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
-					(fill
-						(type background)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 4.318)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 				(pin output inverted
@@ -594,48 +630,12 @@
 						)
 					)
 				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 4.318)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 4.318)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(symbol "74HC02_3_2"
 				(arc
-					(start 0 -3.81)
+					(start 0 3.81)
 					(mid 3.7934 0)
-					(end 0 3.81)
+					(end 0 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -656,24 +656,6 @@
 						(type background)
 					)
 				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input inverted
 					(at -7.62 2.54 0)
 					(length 3.81)
@@ -710,12 +692,30 @@
 						)
 					)
 				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(symbol "74HC02_4_1"
 				(arc
-					(start -3.81 -3.81)
+					(start -3.81 3.81)
 					(mid -2.589 0)
-					(end -3.81 3.81)
+					(end -3.81 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -724,10 +724,10 @@
 						(type none)
 					)
 				)
-				(arc
-					(start -0.6096 -3.81)
-					(mid 2.1842 -2.5851)
-					(end 3.81 0)
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -0.635 3.81)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -748,10 +748,22 @@
 						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy -3.81 3.81) (xy -0.635 3.81)
+				(arc
+					(start 3.81 0)
+					(mid 2.1855 -2.584)
+					(end -0.6096 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
 					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -0.6096 3.81)
+					(mid 2.1928 2.5924)
+					(end 3.81 0)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -768,18 +780,6 @@
 					)
 					(stroke
 						(width -25.4)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start 3.81 0)
-					(mid 2.1915 2.5936)
-					(end -0.6096 3.81)
-					(stroke
-						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -843,9 +843,9 @@
 			)
 			(symbol "74HC02_4_2"
 				(arc
-					(start 0 -3.81)
+					(start 0 3.81)
 					(mid 3.7934 0)
-					(end 0 3.81)
+					(end 0 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -972,10 +972,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector_Generic:Conn_02x05_Odd_Even"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1042,30 +1045,19 @@
 			)
 			(symbol "Conn_02x05_Odd_Even_1_1"
 				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
+					(start -1.27 6.35)
+					(end 3.81 -6.35)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
+					(start -1.27 5.207)
+					(end 0 4.953)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -1086,8 +1078,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 5.207)
-					(end 0 4.953)
+					(start -1.27 0.127)
+					(end 0 -0.127)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -1097,19 +1089,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 6.35)
-					(end 3.81 -6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -4.953)
-					(end 2.54 -5.207)
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -1119,8 +1100,8 @@
 					)
 				)
 				(rectangle
-					(start 3.81 -2.413)
-					(end 2.54 -2.667)
+					(start -1.27 -4.953)
+					(end 0 -5.207)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -1130,8 +1111,8 @@
 					)
 				)
 				(rectangle
-					(start 3.81 0.127)
-					(end 2.54 -0.127)
+					(start 3.81 5.207)
+					(end 2.54 4.953)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -1152,8 +1133,30 @@
 					)
 				)
 				(rectangle
-					(start 3.81 5.207)
-					(end 2.54 4.953)
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -4.953)
+					(end 2.54 -5.207)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -1181,42 +1184,6 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -5.08 180)
-					(length 3.81)
-					(name "Pin_10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 5.08 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_3"
@@ -1227,24 +1194,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1271,24 +1220,6 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "Pin_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_7"
@@ -1299,6 +1230,78 @@
 						)
 					)
 					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 5.08 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1325,16 +1328,16 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at 7.62 -5.08 180)
 					(length 3.81)
-					(name "Pin_9"
+					(name "Pin_10"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "9"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1343,9 +1346,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -1418,7 +1424,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -1430,7 +1436,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -1479,11 +1485,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:L"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1550,32 +1561,8 @@
 			)
 			(symbol "L_0_1"
 				(arc
-					(start 0 -2.54)
-					(mid 0.6323 -1.905)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 0.635)
+					(start 0 2.54)
+					(mid 0.6323 1.905)
 					(end 0 1.27)
 					(stroke
 						(width 0)
@@ -1587,8 +1574,32 @@
 				)
 				(arc
 					(start 0 1.27)
-					(mid 0.6323 1.905)
-					(end 0 2.54)
+					(mid 0.6323 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 -0.635)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -1.905)
+					(end 0 -2.54)
 					(stroke
 						(width 0)
 						(type default)
@@ -1636,9 +1647,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -1757,6 +1771,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "new_components:DRV8220DSGR"
 			(exclude_from_sim no)
@@ -1944,34 +1959,16 @@
 					)
 				)
 				(pin input line
-					(at 27.94 -7.62 180)
+					(at 27.94 0 180)
 					(length 2.54)
-					(name "IN2/EN"
+					(name "NSLEEP"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 27.94 -5.08 180)
-					(length 2.54)
-					(name "IN1/PH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1998,16 +1995,34 @@
 					)
 				)
 				(pin input line
-					(at 27.94 0 180)
+					(at 27.94 -5.08 180)
 					(length 2.54)
-					(name "NSLEEP"
+					(name "IN1/PH"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 27.94 -7.62 180)
+					(length 2.54)
+					(name "IN2/EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2016,12 +2031,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+5V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2093,7 +2113,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -2105,7 +2125,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -2136,12 +2156,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2232,7 +2257,742 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "connecter à la pin 4 au lieu de la vraie masse\npour éviter les rebouclages de courant"
+		(exclude_from_sim no)
+		(at 241.808 136.398 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+				(color 132 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "00de5ab5-d33f-479c-bb76-cea1d02b63e6")
+	)
+	(text "Thermal pad au terminal de la pin 4"
+		(exclude_from_sim no)
+		(at 298.704 170.942 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "029d60fc-186f-4fd7-98e7-873cb1f9e299")
+	)
+	(text "Motor driver\nDRV8220DSGR \nMO: 595-DRV8220DSGR\npackage: WSON \n"
+		(exclude_from_sim no)
+		(at 295.402 55.118 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left)
+		)
+		(uuid "05b91c44-b6ef-4bcd-8f56-e89af5929c8c")
+	)
+	(text "Thermal pad au terminal de la pin 4"
+		(exclude_from_sim no)
+		(at 298.45 58.166 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "0b237650-72c9-48a9-8364-6d88c1583ade")
+	)
+	(text "Thermal pad au terminal de la pin 4"
+		(exclude_from_sim no)
+		(at 203.454 55.626 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "0b8aaba3-6c27-4bcf-9040-a447225ba478")
+	)
+	(text "Thermal pad au terminal de la pin 4"
+		(exclude_from_sim no)
+		(at 203.2 111.76 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "0cfda0cc-c2cc-4dde-982b-6dd687f06e8d")
+	)
+	(text "Shunt\nLTR18EZPFL1R00\nMO: 755-LTR18EZPFL1R00"
+		(exclude_from_sim no)
+		(at 232.156 175.768 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left)
+		)
+		(uuid "0f0f9048-b26a-4468-86c2-f057368435c8")
+	)
+	(text "Motor driver\nDRV8220DSGR \nMO: 595-DRV8220DSGR\npackage: WSON \n"
+		(exclude_from_sim no)
+		(at 295.148 110.998 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left)
+		)
+		(uuid "0f935bf9-5033-4d21-8e41-b560f9463932")
+	)
+	(text "Capacitor (2 fois)\nGRM21BC81C106KE5K\nMO: 81-GRM21BC81C106KE5K"
+		(exclude_from_sim no)
+		(at 345.186 101.6 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left)
+		)
+		(uuid "1316e02b-26ec-4e8a-94bd-22d099fb730d")
+	)
+	(text "Motor driver\nDRV8220DSGR \nMO: 595-DRV8220DSGR\npackage: WSON \n"
+		(exclude_from_sim no)
+		(at 200.152 108.712 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left)
+		)
+		(uuid "1b27432a-dde4-4d6b-9305-ff5673e6db49")
+	)
+	(text "Thermal pad au terminal de la pin 4"
+		(exclude_from_sim no)
+		(at 298.958 226.822 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "206a8a49-5fe7-4939-b2be-ee329f9cc624")
+	)
+	(text "Inductance (2 fois)\nAOTA-B252010S100MT\nMO: 815-AOTB252010S100MT"
+		(exclude_from_sim no)
+		(at 236.22 155.702 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left)
+		)
+		(uuid "24b8c9f1-eb78-4bbe-a734-5b36b584029e")
+	)
+	(text "Capacitor (2 fois)\nGRM21BC81C106KE5K\nMO: 81-GRM21BC81C106KE5K"
+		(exclude_from_sim no)
+		(at 249.936 155.702 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left)
+		)
+		(uuid "2a1325a7-0d75-47bb-ad55-e365936b7074")
+	)
+	(text "Shunt\nLTR18EZPFL1R00\nMO: 755-LTR18EZPFL1R00"
+		(exclude_from_sim no)
+		(at 327.406 234.696 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left)
+		)
+		(uuid "3189cc56-eff1-4ac0-a8fb-e540a62091cc")
+	)
+	(text "connecter à la pin 4 au lieu de la vraie masse\npour éviter les rebouclages de courant"
+		(exclude_from_sim no)
+		(at 336.804 138.938 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+				(color 132 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "32382a4c-dc2c-49e6-bca4-ec1aac52fcef")
+	)
+	(text "grande par rapport au shunt\n"
+		(exclude_from_sim no)
+		(at 221.742 52.07 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "333deffa-d3ef-4b63-8ac0-d4d7b626985c")
+	)
+	(text "Connector\n62131021921\nMO: 710-62131021921 "
+		(exclude_from_sim no)
+		(at 81.28 271.018 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left)
+		)
+		(uuid "380b0b1d-d901-45cb-aa15-f7a33208a079")
+	)
+	(text "4 NOR-Gates (2 fois)\n595-SN74LVC02ABQAR \nMO: 595-SN74LVC02ABQAR \nPackage_DFN_QFN:DHVQFN-14-1EP_2.5x3mm_P0.5mm_EP1x1.5mm"
+		(exclude_from_sim no)
+		(at 39.37 175.26 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left)
+		)
+		(uuid "394c461c-bdff-4dad-a7ca-f19bf676e8c0")
+	)
+	(text "Capacitor (2 fois)\nGRM21BC81C106KE5K\nMO: 81-GRM21BC81C106KE5K"
+		(exclude_from_sim no)
+		(at 249.936 42.672 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left)
+		)
+		(uuid "3d84ffc7-33cc-4815-82c0-7a95a715aff4")
+	)
+	(text "Thermal pad au terminal de la pin 4"
+		(exclude_from_sim no)
+		(at 202.946 168.402 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "41e679ff-ddb8-4f1b-baf7-bbd036b28b27")
+	)
+	(text "Motor VCC\nEncoder GND\nEncoder Signal 1\nEncoder Signal 2\nEncoder VCC\nMotor GND"
+		(exclude_from_sim no)
+		(at 264.414 265.684 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+				(color 132 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "4299de95-d5ec-47af-a609-29e92ce4bd80")
+	)
+	(text "connecter à la pin 4 au lieu de la vraie masse\npour éviter les rebouclages de courant"
+		(exclude_from_sim no)
+		(at 239.776 79.756 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+				(color 132 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "44ffb954-2a7c-4d2e-a07d-d9210f5605e6")
+	)
+	(text "Shunt\nLTR18EZPFL1R00\nMO: 755-LTR18EZPFL1R00"
+		(exclude_from_sim no)
+		(at 232.41 63.246 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left)
+		)
+		(uuid "4e088bf6-994c-486f-8f01-3be707df1960")
+	)
+	(text "Inductance (2 fois)\nAOTA-B252010S100MT\nMO: 815-AOTB252010S100MT"
+		(exclude_from_sim no)
+		(at 236.22 98.806 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left)
+		)
+		(uuid "52c6205e-429e-4faf-8414-09d84de0d050")
+	)
+	(text "4 NOR-Gates (2 fois)\n595-SN74LVC02ABQAR \nMO: 595-SN74LVC02ABQAR \nPackage_DFN_QFN:DHVQFN-14-1EP_2.5x3mm_P0.5mm_EP1x1.5mm"
+		(exclude_from_sim no)
+		(at 38.862 127.508 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left)
+		)
+		(uuid "596662ea-a541-4202-8b55-93c726e9034a")
+	)
+	(text "Shunt\nLTR18EZPFL1R00\nMO: 755-LTR18EZPFL1R00"
+		(exclude_from_sim no)
+		(at 232.156 118.872 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left)
+		)
+		(uuid "64bbd88b-728c-483e-81f1-daedd95d49bd")
+	)
+	(text "Inductance (2 fois)\nAOTA-B252010S100MT\nMO: 815-AOTB252010S100MT"
+		(exclude_from_sim no)
+		(at 236.22 42.672 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left)
+		)
+		(uuid "68d411be-326a-4b43-9088-d3b6593808e6")
+	)
+	(text "Capacitor (2 fois)\nGRM21BC81C106KE5K\nMO: 81-GRM21BC81C106KE5K"
+		(exclude_from_sim no)
+		(at 344.932 214.63 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left)
+		)
+		(uuid "6b459217-0121-47bb-8582-9b2b1b7d352a")
+	)
+	(text "Motor driver\nDRV8220DSGR \nMO: 595-DRV8220DSGR\npackage: WSON \n"
+		(exclude_from_sim no)
+		(at 199.898 165.354 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left)
+		)
+		(uuid "761fc766-3a18-42a5-91d1-229de01d0d23")
+	)
+	(text "Shunt\nLTR18EZPFL1R00\nMO: 755-LTR18EZPFL1R00"
+		(exclude_from_sim no)
+		(at 231.902 231.648 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left)
+		)
+		(uuid "784999b1-3f23-4b63-846c-ad0dae51cc33")
+	)
+	(text "Inductance (2 fois)\nAOTA-B252010S100MT\nMO: 815-AOTB252010S100MT"
+		(exclude_from_sim no)
+		(at 331.47 45.212 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left)
+		)
+		(uuid "7eb7d05e-2b49-46fe-9568-b06759ea7581")
+	)
+	(text "Thermal pad au terminal de la pin 4"
+		(exclude_from_sim no)
+		(at 202.438 224.536 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "7fd659d9-b6fe-4096-a8c5-41d0ef6620b4")
+	)
+	(text "Capacitor (2 fois)\nGRM21BC81C106KE5K\nMO: 81-GRM21BC81C106KE5K"
+		(exclude_from_sim no)
+		(at 249.936 211.582 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left)
+		)
+		(uuid "875e0261-339d-48ed-96f3-fc556dcff594")
+	)
+	(text "Thermal pad au terminal de la pin 4"
+		(exclude_from_sim no)
+		(at 298.196 114.046 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "8852a3e4-85ea-49ed-9a5c-59a5e615059c")
+	)
+	(text "Inductance (2 fois)\nAOTA-B252010S100MT\nMO: 815-AOTB252010S100MT"
+		(exclude_from_sim no)
+		(at 236.22 211.582 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left)
+		)
+		(uuid "8d207b2b-f68b-4710-908b-2a9851730556")
+	)
+	(text "C119, C114, C115, C117 à la pin 4 \npour éviter les rebouclages de courant"
+		(exclude_from_sim no)
+		(at 244.348 182.626 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+		)
+		(uuid "936fe13f-eaf6-4db1-9f5d-e6db187a653a")
+	)
+	(text "4 NOR-Gates (2 fois)\n595-SN74LVC02ABQAR \nMO: 595-SN74LVC02ABQAR \nPackage_DFN_QFN:DHVQFN-14-1EP_2.5x3mm_P0.5mm_EP1x1.5mm"
+		(exclude_from_sim no)
+		(at 39.37 73.406 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left)
+		)
+		(uuid "93de2a01-e60b-42b1-9fb9-040f450b604c")
+	)
+	(text "4 NOR-Gates (2 fois)\n595-SN74LVC02ABQAR \nMO: 595-SN74LVC02ABQAR \nPackage_DFN_QFN:DHVQFN-14-1EP_2.5x3mm_P0.5mm_EP1x1.5mm"
+		(exclude_from_sim no)
+		(at 41.656 232.918 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left)
+		)
+		(uuid "94781791-6ae2-400c-a462-5339733c306a")
+	)
+	(text "Shunt\nLTR18EZPFL1R00\nMO: 755-LTR18EZPFL1R00"
+		(exclude_from_sim no)
+		(at 327.66 179.07 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left)
+		)
+		(uuid "97e2767c-60e0-4e15-8518-83c31101fb5e")
+	)
+	(text "Capacitor (2 fois)\nGRM21BC81C106KE5K\nMO: 81-GRM21BC81C106KE5K"
+		(exclude_from_sim no)
+		(at 249.936 98.806 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left)
+		)
+		(uuid "9e522fd9-ddbc-4e82-9acb-3d2030bf4a58")
+	)
+	(text "Shunt\nLTR18EZPFL1R00\nMO: 755-LTR18EZPFL1R00"
+		(exclude_from_sim no)
+		(at 327.66 121.92 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left)
+		)
+		(uuid "a02ca425-6623-49f4-81b7-e4a166e1517c")
+	)
+	(text "Connector\n62131021921\nMO: 710-62131021921 "
+		(exclude_from_sim no)
+		(at 173.736 271.018 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left)
+		)
+		(uuid "a2e8dfa1-6672-4440-b00d-803fa4448a59")
+	)
+	(text "Connector\n62131021921\nMO: 710-62131021921 "
+		(exclude_from_sim no)
+		(at 127 271.018 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left)
+		)
+		(uuid "a7557170-7b53-45f6-a9db-f706b234398f")
+	)
+	(text "connecter à la pin 4 au lieu de la vraie masse\npour éviter les rebouclages de courant"
+		(exclude_from_sim no)
+		(at 241.046 192.532 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+				(color 132 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "a8378a49-55af-4f69-a3f4-633be4fca483")
+	)
+	(text "Inductance (2 fois)\nAOTA-B252010S100MT\nMO: 815-AOTB252010S100MT"
+		(exclude_from_sim no)
+		(at 331.216 214.63 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left)
+		)
+		(uuid "a9780ccf-9b1f-4926-af86-ca9fe9267b9b")
+	)
+	(text "Inductance (2 fois)\nAOTA-B252010S100MT\nMO: 815-AOTB252010S100MT"
+		(exclude_from_sim no)
+		(at 331.47 101.6 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left)
+		)
+		(uuid "b4485dfb-647a-4cca-a193-4b568794475f")
+	)
+	(text "grande par rapport au shunt\n"
+		(exclude_from_sim no)
+		(at 316.738 167.64 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "c140a4bd-98f7-4b0f-93b0-9944c556ab1c")
+	)
+	(text "connecter à la pin 4 au lieu de la vraie masse\npour éviter les rebouclages de courant"
+		(exclude_from_sim no)
+		(at 336.55 195.326 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+				(color 132 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "ce47d8bd-1aed-45c1-b96b-4b43e676a3f8")
+	)
+	(text "Motor driver\nDRV8220DSGR \nMO: 595-DRV8220DSGR\npackage: WSON \n"
+		(exclude_from_sim no)
+		(at 199.39 221.488 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left)
+		)
+		(uuid "d18efcb3-5d54-4721-9019-8e573541bebc")
+	)
+	(text "Connector\n62131021921\nMO: 710-62131021921 "
+		(exclude_from_sim no)
+		(at 217.17 271.272 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left)
+		)
+		(uuid "d199a32c-4107-4678-8cf8-1affebdc8e04")
+	)
+	(text "Capacitor (2 fois)\nGRM21BC81C106KE5K\nMO: 81-GRM21BC81C106KE5K"
+		(exclude_from_sim no)
+		(at 345.186 45.212 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left)
+		)
+		(uuid "d2bbf82d-4511-4fd9-a639-2fed6546b5c7")
+	)
+	(text "Motor driver\nDRV8220DSGR \nMO: 595-DRV8220DSGR\npackage: WSON \n"
+		(exclude_from_sim no)
+		(at 200.406 52.578 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left)
+		)
+		(uuid "d5b7a03f-3409-44dc-9888-efa55469fa9d")
+	)
+	(text "Motor driver\nDRV8220DSGR \nMO: 595-DRV8220DSGR\npackage: WSON \n"
+		(exclude_from_sim no)
+		(at 295.91 223.774 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left)
+		)
+		(uuid "d9cdac23-a53f-4675-8141-9d628db71682")
+	)
+	(text "grande par rapport au shunt\n"
+		(exclude_from_sim no)
+		(at 221.742 220.726 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "dd4668f1-b73e-433c-9bfe-3f7247be7564")
+	)
+	(text "Motor driver\nDRV8220DSGR \nMO: 595-DRV8220DSGR\npackage: WSON \n"
+		(exclude_from_sim no)
+		(at 295.656 167.894 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left)
+		)
+		(uuid "dd90cbaf-6748-404f-912a-e72c259b34b4")
+	)
+	(text "connecter à la pin 4 au lieu de la vraie masse\npour éviter les rebouclages de courant"
+		(exclude_from_sim no)
+		(at 240.538 23.622 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+				(color 132 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "e1a86f82-7918-43c4-8fa6-705b6422a2a2")
+	)
+	(text "Inductance (2 fois)\nAOTA-B252010S100MT\nMO: 815-AOTB252010S100MT"
+		(exclude_from_sim no)
+		(at 331.47 158.496 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left)
+		)
+		(uuid "e24699cd-974b-497c-b39c-8c81299fe71d")
+	)
+	(text "grande par rapport au shunt\n"
+		(exclude_from_sim no)
+		(at 316.992 223.52 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "e5a1578f-535d-49c1-9319-0db2fdb2dc14")
+	)
+	(text "Shunt\nLTR18EZPFL1R00\nMO: 755-LTR18EZPFL1R00"
+		(exclude_from_sim no)
+		(at 327.66 66.04 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left)
+		)
+		(uuid "e777421f-1f70-4e92-b349-f471cb871218")
+	)
+	(text "grande par rapport au shunt\n"
+		(exclude_from_sim no)
+		(at 221.742 165.1 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "e7a5c9c2-f27d-49d3-a581-ae8ecc0aff66")
+	)
+	(text "connecter à la pin 4 au lieu de la vraie masse\npour éviter les rebouclages de courant"
+		(exclude_from_sim no)
+		(at 336.296 81.788 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+				(color 132 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "ea87a7a9-715d-440e-9a3e-c0a937503aa7")
+	)
+	(text "connecter à la pin 4 au lieu de la vraie masse\npour éviter les rebouclages de courant"
+		(exclude_from_sim no)
+		(at 336.296 25.908 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+				(color 132 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "ed2fc45f-6d9c-4275-892d-22da712d519c")
+	)
+	(text "grande par rapport au shunt\n"
+		(exclude_from_sim no)
+		(at 316.992 54.864 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "ed94c748-251a-4978-8935-61eeb21cfc21")
+	)
+	(text "Capacitor (2 fois)\nGRM21BC81C106KE5K\nMO: 81-GRM21BC81C106KE5K"
+		(exclude_from_sim no)
+		(at 345.186 158.496 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left)
+		)
+		(uuid "ee9a3af8-4d55-41de-a009-a66f70f08616")
+	)
+	(text "grande par rapport au shunt\n"
+		(exclude_from_sim no)
+		(at 221.742 107.95 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "eeae0030-620f-4915-839b-8012c4e6bcf0")
+	)
+	(text "grande par rapport au shunt\n"
+		(exclude_from_sim no)
+		(at 316.738 110.49 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "f0516123-a591-4843-8cba-57594aede66e")
 	)
 	(junction
 		(at 44.45 196.85)
@@ -8433,740 +9193,6 @@
 			(type default)
 		)
 		(uuid "ff327cb1-f453-42d8-9377-166ce133658b")
-	)
-	(text "connecter à la pin 4 au lieu de la vraie masse\npour éviter les rebouclages de courant"
-		(exclude_from_sim no)
-		(at 241.808 136.398 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-				(color 132 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "00de5ab5-d33f-479c-bb76-cea1d02b63e6")
-	)
-	(text "Thermal pad au terminal de la pin 4"
-		(exclude_from_sim no)
-		(at 298.704 170.942 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-				(color 132 0 0 1)
-			)
-		)
-		(uuid "029d60fc-186f-4fd7-98e7-873cb1f9e299")
-	)
-	(text "Motor driver\nDRV8220DSGR \nMO: 595-DRV8220DSGR\npackage: WSON \n"
-		(exclude_from_sim no)
-		(at 295.402 55.118 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-			)
-			(justify left)
-		)
-		(uuid "05b91c44-b6ef-4bcd-8f56-e89af5929c8c")
-	)
-	(text "Thermal pad au terminal de la pin 4"
-		(exclude_from_sim no)
-		(at 298.45 58.166 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-				(color 132 0 0 1)
-			)
-		)
-		(uuid "0b237650-72c9-48a9-8364-6d88c1583ade")
-	)
-	(text "Thermal pad au terminal de la pin 4"
-		(exclude_from_sim no)
-		(at 203.454 55.626 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-				(color 132 0 0 1)
-			)
-		)
-		(uuid "0b8aaba3-6c27-4bcf-9040-a447225ba478")
-	)
-	(text "Thermal pad au terminal de la pin 4"
-		(exclude_from_sim no)
-		(at 203.2 111.76 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-				(color 132 0 0 1)
-			)
-		)
-		(uuid "0cfda0cc-c2cc-4dde-982b-6dd687f06e8d")
-	)
-	(text "Shunt\nLTR18EZPFL1R00\nMO: 755-LTR18EZPFL1R00"
-		(exclude_from_sim no)
-		(at 232.156 175.768 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-			)
-			(justify left)
-		)
-		(uuid "0f0f9048-b26a-4468-86c2-f057368435c8")
-	)
-	(text "Motor driver\nDRV8220DSGR \nMO: 595-DRV8220DSGR\npackage: WSON \n"
-		(exclude_from_sim no)
-		(at 295.148 110.998 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-			)
-			(justify left)
-		)
-		(uuid "0f935bf9-5033-4d21-8e41-b560f9463932")
-	)
-	(text "Capacitor (2 fois)\nGRM21BC81C106KE5K\nMO: 81-GRM21BC81C106KE5K"
-		(exclude_from_sim no)
-		(at 345.186 101.6 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-			)
-			(justify left)
-		)
-		(uuid "1316e02b-26ec-4e8a-94bd-22d099fb730d")
-	)
-	(text "Motor driver\nDRV8220DSGR \nMO: 595-DRV8220DSGR\npackage: WSON \n"
-		(exclude_from_sim no)
-		(at 200.152 108.712 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-			)
-			(justify left)
-		)
-		(uuid "1b27432a-dde4-4d6b-9305-ff5673e6db49")
-	)
-	(text "Thermal pad au terminal de la pin 4"
-		(exclude_from_sim no)
-		(at 298.958 226.822 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-				(color 132 0 0 1)
-			)
-		)
-		(uuid "206a8a49-5fe7-4939-b2be-ee329f9cc624")
-	)
-	(text "Inductance (2 fois)\nAOTA-B252010S100MT\nMO: 815-AOTB252010S100MT"
-		(exclude_from_sim no)
-		(at 236.22 155.702 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-			)
-			(justify left)
-		)
-		(uuid "24b8c9f1-eb78-4bbe-a734-5b36b584029e")
-	)
-	(text "Capacitor (2 fois)\nGRM21BC81C106KE5K\nMO: 81-GRM21BC81C106KE5K"
-		(exclude_from_sim no)
-		(at 249.936 155.702 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-			)
-			(justify left)
-		)
-		(uuid "2a1325a7-0d75-47bb-ad55-e365936b7074")
-	)
-	(text "Shunt\nLTR18EZPFL1R00\nMO: 755-LTR18EZPFL1R00"
-		(exclude_from_sim no)
-		(at 327.406 234.696 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-			)
-			(justify left)
-		)
-		(uuid "3189cc56-eff1-4ac0-a8fb-e540a62091cc")
-	)
-	(text "connecter à la pin 4 au lieu de la vraie masse\npour éviter les rebouclages de courant"
-		(exclude_from_sim no)
-		(at 336.804 138.938 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-				(color 132 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "32382a4c-dc2c-49e6-bca4-ec1aac52fcef")
-	)
-	(text "grande par rapport au shunt\n"
-		(exclude_from_sim no)
-		(at 221.742 52.07 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-				(color 132 0 0 1)
-			)
-		)
-		(uuid "333deffa-d3ef-4b63-8ac0-d4d7b626985c")
-	)
-	(text "Connector\n62131021921\nMO: 710-62131021921 "
-		(exclude_from_sim no)
-		(at 81.28 271.018 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-			)
-			(justify left)
-		)
-		(uuid "380b0b1d-d901-45cb-aa15-f7a33208a079")
-	)
-	(text "4 NOR-Gates (2 fois)\n595-SN74LVC02ABQAR \nMO: 595-SN74LVC02ABQAR \nPackage_DFN_QFN:DHVQFN-14-1EP_2.5x3mm_P0.5mm_EP1x1.5mm"
-		(exclude_from_sim no)
-		(at 39.37 175.26 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-			)
-			(justify left)
-		)
-		(uuid "394c461c-bdff-4dad-a7ca-f19bf676e8c0")
-	)
-	(text "Capacitor (2 fois)\nGRM21BC81C106KE5K\nMO: 81-GRM21BC81C106KE5K"
-		(exclude_from_sim no)
-		(at 249.936 42.672 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-			)
-			(justify left)
-		)
-		(uuid "3d84ffc7-33cc-4815-82c0-7a95a715aff4")
-	)
-	(text "Thermal pad au terminal de la pin 4"
-		(exclude_from_sim no)
-		(at 202.946 168.402 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-				(color 132 0 0 1)
-			)
-		)
-		(uuid "41e679ff-ddb8-4f1b-baf7-bbd036b28b27")
-	)
-	(text "Motor VCC\nEncoder GND\nEncoder Signal 1\nEncoder Signal 2\nEncoder VCC\nMotor GND"
-		(exclude_from_sim no)
-		(at 264.414 265.684 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-				(color 132 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "4299de95-d5ec-47af-a609-29e92ce4bd80")
-	)
-	(text "connecter à la pin 4 au lieu de la vraie masse\npour éviter les rebouclages de courant"
-		(exclude_from_sim no)
-		(at 239.776 79.756 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-				(color 132 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "44ffb954-2a7c-4d2e-a07d-d9210f5605e6")
-	)
-	(text "Shunt\nLTR18EZPFL1R00\nMO: 755-LTR18EZPFL1R00"
-		(exclude_from_sim no)
-		(at 232.41 63.246 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-			)
-			(justify left)
-		)
-		(uuid "4e088bf6-994c-486f-8f01-3be707df1960")
-	)
-	(text "Inductance (2 fois)\nAOTA-B252010S100MT\nMO: 815-AOTB252010S100MT"
-		(exclude_from_sim no)
-		(at 236.22 98.806 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-			)
-			(justify left)
-		)
-		(uuid "52c6205e-429e-4faf-8414-09d84de0d050")
-	)
-	(text "4 NOR-Gates (2 fois)\n595-SN74LVC02ABQAR \nMO: 595-SN74LVC02ABQAR \nPackage_DFN_QFN:DHVQFN-14-1EP_2.5x3mm_P0.5mm_EP1x1.5mm"
-		(exclude_from_sim no)
-		(at 38.862 127.508 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-			)
-			(justify left)
-		)
-		(uuid "596662ea-a541-4202-8b55-93c726e9034a")
-	)
-	(text "Shunt\nLTR18EZPFL1R00\nMO: 755-LTR18EZPFL1R00"
-		(exclude_from_sim no)
-		(at 232.156 118.872 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-			)
-			(justify left)
-		)
-		(uuid "64bbd88b-728c-483e-81f1-daedd95d49bd")
-	)
-	(text "Inductance (2 fois)\nAOTA-B252010S100MT\nMO: 815-AOTB252010S100MT"
-		(exclude_from_sim no)
-		(at 236.22 42.672 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-			)
-			(justify left)
-		)
-		(uuid "68d411be-326a-4b43-9088-d3b6593808e6")
-	)
-	(text "Capacitor (2 fois)\nGRM21BC81C106KE5K\nMO: 81-GRM21BC81C106KE5K"
-		(exclude_from_sim no)
-		(at 344.932 214.63 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-			)
-			(justify left)
-		)
-		(uuid "6b459217-0121-47bb-8582-9b2b1b7d352a")
-	)
-	(text "Motor driver\nDRV8220DSGR \nMO: 595-DRV8220DSGR\npackage: WSON \n"
-		(exclude_from_sim no)
-		(at 199.898 165.354 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-			)
-			(justify left)
-		)
-		(uuid "761fc766-3a18-42a5-91d1-229de01d0d23")
-	)
-	(text "Shunt\nLTR18EZPFL1R00\nMO: 755-LTR18EZPFL1R00"
-		(exclude_from_sim no)
-		(at 231.902 231.648 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-			)
-			(justify left)
-		)
-		(uuid "784999b1-3f23-4b63-846c-ad0dae51cc33")
-	)
-	(text "Inductance (2 fois)\nAOTA-B252010S100MT\nMO: 815-AOTB252010S100MT"
-		(exclude_from_sim no)
-		(at 331.47 45.212 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-			)
-			(justify left)
-		)
-		(uuid "7eb7d05e-2b49-46fe-9568-b06759ea7581")
-	)
-	(text "Thermal pad au terminal de la pin 4"
-		(exclude_from_sim no)
-		(at 202.438 224.536 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-				(color 132 0 0 1)
-			)
-		)
-		(uuid "7fd659d9-b6fe-4096-a8c5-41d0ef6620b4")
-	)
-	(text "Capacitor (2 fois)\nGRM21BC81C106KE5K\nMO: 81-GRM21BC81C106KE5K"
-		(exclude_from_sim no)
-		(at 249.936 211.582 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-			)
-			(justify left)
-		)
-		(uuid "875e0261-339d-48ed-96f3-fc556dcff594")
-	)
-	(text "Thermal pad au terminal de la pin 4"
-		(exclude_from_sim no)
-		(at 298.196 114.046 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-				(color 132 0 0 1)
-			)
-		)
-		(uuid "8852a3e4-85ea-49ed-9a5c-59a5e615059c")
-	)
-	(text "Inductance (2 fois)\nAOTA-B252010S100MT\nMO: 815-AOTB252010S100MT"
-		(exclude_from_sim no)
-		(at 236.22 211.582 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-			)
-			(justify left)
-		)
-		(uuid "8d207b2b-f68b-4710-908b-2a9851730556")
-	)
-	(text "C119, C114, C115, C117 à la pin 4 \npour éviter les rebouclages de courant"
-		(exclude_from_sim no)
-		(at 244.348 182.626 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-			)
-		)
-		(uuid "936fe13f-eaf6-4db1-9f5d-e6db187a653a")
-	)
-	(text "4 NOR-Gates (2 fois)\n595-SN74LVC02ABQAR \nMO: 595-SN74LVC02ABQAR \nPackage_DFN_QFN:DHVQFN-14-1EP_2.5x3mm_P0.5mm_EP1x1.5mm"
-		(exclude_from_sim no)
-		(at 39.37 73.406 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-			)
-			(justify left)
-		)
-		(uuid "93de2a01-e60b-42b1-9fb9-040f450b604c")
-	)
-	(text "4 NOR-Gates (2 fois)\n595-SN74LVC02ABQAR \nMO: 595-SN74LVC02ABQAR \nPackage_DFN_QFN:DHVQFN-14-1EP_2.5x3mm_P0.5mm_EP1x1.5mm"
-		(exclude_from_sim no)
-		(at 41.656 232.918 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-			)
-			(justify left)
-		)
-		(uuid "94781791-6ae2-400c-a462-5339733c306a")
-	)
-	(text "Shunt\nLTR18EZPFL1R00\nMO: 755-LTR18EZPFL1R00"
-		(exclude_from_sim no)
-		(at 327.66 179.07 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-			)
-			(justify left)
-		)
-		(uuid "97e2767c-60e0-4e15-8518-83c31101fb5e")
-	)
-	(text "Capacitor (2 fois)\nGRM21BC81C106KE5K\nMO: 81-GRM21BC81C106KE5K"
-		(exclude_from_sim no)
-		(at 249.936 98.806 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-			)
-			(justify left)
-		)
-		(uuid "9e522fd9-ddbc-4e82-9acb-3d2030bf4a58")
-	)
-	(text "Shunt\nLTR18EZPFL1R00\nMO: 755-LTR18EZPFL1R00"
-		(exclude_from_sim no)
-		(at 327.66 121.92 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-			)
-			(justify left)
-		)
-		(uuid "a02ca425-6623-49f4-81b7-e4a166e1517c")
-	)
-	(text "Connector\n62131021921\nMO: 710-62131021921 "
-		(exclude_from_sim no)
-		(at 173.736 271.018 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-			)
-			(justify left)
-		)
-		(uuid "a2e8dfa1-6672-4440-b00d-803fa4448a59")
-	)
-	(text "Connector\n62131021921\nMO: 710-62131021921 "
-		(exclude_from_sim no)
-		(at 127 271.018 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-			)
-			(justify left)
-		)
-		(uuid "a7557170-7b53-45f6-a9db-f706b234398f")
-	)
-	(text "connecter à la pin 4 au lieu de la vraie masse\npour éviter les rebouclages de courant"
-		(exclude_from_sim no)
-		(at 241.046 192.532 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-				(color 132 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "a8378a49-55af-4f69-a3f4-633be4fca483")
-	)
-	(text "Inductance (2 fois)\nAOTA-B252010S100MT\nMO: 815-AOTB252010S100MT"
-		(exclude_from_sim no)
-		(at 331.216 214.63 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-			)
-			(justify left)
-		)
-		(uuid "a9780ccf-9b1f-4926-af86-ca9fe9267b9b")
-	)
-	(text "Inductance (2 fois)\nAOTA-B252010S100MT\nMO: 815-AOTB252010S100MT"
-		(exclude_from_sim no)
-		(at 331.47 101.6 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-			)
-			(justify left)
-		)
-		(uuid "b4485dfb-647a-4cca-a193-4b568794475f")
-	)
-	(text "grande par rapport au shunt\n"
-		(exclude_from_sim no)
-		(at 316.738 167.64 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-				(color 132 0 0 1)
-			)
-		)
-		(uuid "c140a4bd-98f7-4b0f-93b0-9944c556ab1c")
-	)
-	(text "connecter à la pin 4 au lieu de la vraie masse\npour éviter les rebouclages de courant"
-		(exclude_from_sim no)
-		(at 336.55 195.326 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-				(color 132 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "ce47d8bd-1aed-45c1-b96b-4b43e676a3f8")
-	)
-	(text "Motor driver\nDRV8220DSGR \nMO: 595-DRV8220DSGR\npackage: WSON \n"
-		(exclude_from_sim no)
-		(at 199.39 221.488 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-			)
-			(justify left)
-		)
-		(uuid "d18efcb3-5d54-4721-9019-8e573541bebc")
-	)
-	(text "Connector\n62131021921\nMO: 710-62131021921 "
-		(exclude_from_sim no)
-		(at 217.17 271.272 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-			)
-			(justify left)
-		)
-		(uuid "d199a32c-4107-4678-8cf8-1affebdc8e04")
-	)
-	(text "Capacitor (2 fois)\nGRM21BC81C106KE5K\nMO: 81-GRM21BC81C106KE5K"
-		(exclude_from_sim no)
-		(at 345.186 45.212 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-			)
-			(justify left)
-		)
-		(uuid "d2bbf82d-4511-4fd9-a639-2fed6546b5c7")
-	)
-	(text "Motor driver\nDRV8220DSGR \nMO: 595-DRV8220DSGR\npackage: WSON \n"
-		(exclude_from_sim no)
-		(at 200.406 52.578 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-			)
-			(justify left)
-		)
-		(uuid "d5b7a03f-3409-44dc-9888-efa55469fa9d")
-	)
-	(text "Motor driver\nDRV8220DSGR \nMO: 595-DRV8220DSGR\npackage: WSON \n"
-		(exclude_from_sim no)
-		(at 295.91 223.774 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-			)
-			(justify left)
-		)
-		(uuid "d9cdac23-a53f-4675-8141-9d628db71682")
-	)
-	(text "grande par rapport au shunt\n"
-		(exclude_from_sim no)
-		(at 221.742 220.726 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-				(color 132 0 0 1)
-			)
-		)
-		(uuid "dd4668f1-b73e-433c-9bfe-3f7247be7564")
-	)
-	(text "Motor driver\nDRV8220DSGR \nMO: 595-DRV8220DSGR\npackage: WSON \n"
-		(exclude_from_sim no)
-		(at 295.656 167.894 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-			)
-			(justify left)
-		)
-		(uuid "dd90cbaf-6748-404f-912a-e72c259b34b4")
-	)
-	(text "connecter à la pin 4 au lieu de la vraie masse\npour éviter les rebouclages de courant"
-		(exclude_from_sim no)
-		(at 240.538 23.622 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-				(color 132 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "e1a86f82-7918-43c4-8fa6-705b6422a2a2")
-	)
-	(text "Inductance (2 fois)\nAOTA-B252010S100MT\nMO: 815-AOTB252010S100MT"
-		(exclude_from_sim no)
-		(at 331.47 158.496 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-			)
-			(justify left)
-		)
-		(uuid "e24699cd-974b-497c-b39c-8c81299fe71d")
-	)
-	(text "grande par rapport au shunt\n"
-		(exclude_from_sim no)
-		(at 316.992 223.52 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-				(color 132 0 0 1)
-			)
-		)
-		(uuid "e5a1578f-535d-49c1-9319-0db2fdb2dc14")
-	)
-	(text "Shunt\nLTR18EZPFL1R00\nMO: 755-LTR18EZPFL1R00"
-		(exclude_from_sim no)
-		(at 327.66 66.04 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-			)
-			(justify left)
-		)
-		(uuid "e777421f-1f70-4e92-b349-f471cb871218")
-	)
-	(text "grande par rapport au shunt\n"
-		(exclude_from_sim no)
-		(at 221.742 165.1 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-				(color 132 0 0 1)
-			)
-		)
-		(uuid "e7a5c9c2-f27d-49d3-a581-ae8ecc0aff66")
-	)
-	(text "connecter à la pin 4 au lieu de la vraie masse\npour éviter les rebouclages de courant"
-		(exclude_from_sim no)
-		(at 336.296 81.788 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-				(color 132 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "ea87a7a9-715d-440e-9a3e-c0a937503aa7")
-	)
-	(text "connecter à la pin 4 au lieu de la vraie masse\npour éviter les rebouclages de courant"
-		(exclude_from_sim no)
-		(at 336.296 25.908 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-				(color 132 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "ed2fc45f-6d9c-4275-892d-22da712d519c")
-	)
-	(text "grande par rapport au shunt\n"
-		(exclude_from_sim no)
-		(at 316.992 54.864 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-				(color 132 0 0 1)
-			)
-		)
-		(uuid "ed94c748-251a-4978-8935-61eeb21cfc21")
-	)
-	(text "Capacitor (2 fois)\nGRM21BC81C106KE5K\nMO: 81-GRM21BC81C106KE5K"
-		(exclude_from_sim no)
-		(at 345.186 158.496 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-			)
-			(justify left)
-		)
-		(uuid "ee9a3af8-4d55-41de-a009-a66f70f08616")
-	)
-	(text "grande par rapport au shunt\n"
-		(exclude_from_sim no)
-		(at 221.742 107.95 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-				(color 132 0 0 1)
-			)
-		)
-		(uuid "eeae0030-620f-4915-839b-8012c4e6bcf0")
-	)
-	(text "grande par rapport au shunt\n"
-		(exclude_from_sim no)
-		(at 316.738 110.49 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-				(color 132 0 0 1)
-			)
-		)
-		(uuid "f0516123-a591-4843-8cba-57594aede66e")
 	)
 	(global_label "pin4_4"
 		(shape input)

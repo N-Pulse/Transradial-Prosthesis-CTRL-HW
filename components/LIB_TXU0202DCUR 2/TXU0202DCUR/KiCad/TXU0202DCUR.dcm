@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TXU0202DCUR
+D Translation - Voltage Levels Two channel fixed-direction level shifter with channels in opposite direction
+K
+F https://www.ti.com/product/ja-jp/TXU0202
+$ENDCMP
+#
+#End Doc Library

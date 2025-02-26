@@ -1,0 +1,73 @@
+(Japanese_coding: sjis)
+(function "ECS_19877935"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-08-28-10:58:19)
+    (utime 2024-12-31-12:57:45)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+        (port "4" (symbPinId 4) (portType INOUT))
+    )
+    (property "symbolName" "TL3305BF100QG")
+)
+
+
+(pinAssign "ECS_19877935"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-08-28-10:58:19)
+    (utime 2024-12-31-12:57:45)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "3") (portType INOUT))
+        (port "4" (symbPinId 4) (portName "4") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_19877935")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+                (port "4" (match "4"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "TL3305BF100QG")
+)
+
+
+(part "TL3305BF100QG"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-08-28-10:58:19)
+    (utime 2024-12-31-12:57:45)
+    (packageRef "TL3305BF100QG")
+    (pinAssignRef "ECS_19877935")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "3") (portType INOUT))
+        (port "4" (symbPinId 4) (portName "4") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "S")
+    (property "description" "TACT, 50mA, 12VDC SPST-NO, Off-(On) Surface Mount")
+    (property "Mouser_Part_Number" "612-TL3305BF100QG")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/E-Switch/TL3305BF100QG?qs=IKkN%2F947nfDIPwqPQja%252BvQ%3D%3D")
+    (property "Manufacturer_Name" "E-Switch")
+    (property "Manufacturer_Part_Number" "TL3305BF100QG")
+    (property "Datasheet_Link" "https://configured-product-images.s3.amazonaws.com/2D/specs/TL3305BF100QG.pdf")
+)
+
+

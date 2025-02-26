@@ -10,4 +10,5 @@
   (lib (name "Conn_Motor")(type "KiCad")(uri "/Users/daniel/pCloud Drive/EPFL/NPulse/Transradial-Prosthesis-CTRL-HW/components/LIB_1985234/1985234/KiCad")(options "")(descr ""))
   (lib (name "Conn_FSR")(type "KiCad")(uri "/Users/daniel/pCloud Drive/EPFL/NPulse/Transradial-Prosthesis-CTRL-HW/components/LIB_1985221/1985221/KiCad")(options "")(descr ""))
   (lib (name "Bornier10")(type "KiCad")(uri "/Users/daniel/pCloud Drive/EPFL/NPulse/Transradial-Prosthesis-CTRL-HW/components/LIB_1725737/1725737/KiCad")(options "")(descr ""))
+  (lib (name "TXU0202")(type "KiCad")(uri "/Users/daniel/pCloud Drive/EPFL/NPulse/Transradial-Prosthesis-CTRL-HW/components/LIB_TXU0202DCUR 2/TXU0202DCUR/KiCad")(options "")(descr ""))
 )

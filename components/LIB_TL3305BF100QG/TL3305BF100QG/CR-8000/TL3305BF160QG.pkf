@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "TL3305BF160QG"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "TL3305BF160QG")
+        (spec "default")
+    )
+)

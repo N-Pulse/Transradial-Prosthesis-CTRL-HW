@@ -1,0 +1,9 @@
+Manufacturer=E-Switch
+PartNumber=TL3305BF100QG
+PartCategory=Switch
+PackageCategory=Other
+PinCount=4
+Version=3.1
+Released=2024-08-28 10:58:19
+Downloaded=2025-02-26 12:56:23
+3D=Y

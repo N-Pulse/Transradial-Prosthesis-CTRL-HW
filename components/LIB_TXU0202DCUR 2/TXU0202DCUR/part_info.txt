@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=TXU0202DCUR
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=2.1
+Released=2022-08-31 07:28:33
+Downloaded=2025-02-26 13:01:26
+3D=Y
