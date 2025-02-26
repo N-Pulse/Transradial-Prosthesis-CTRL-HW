@@ -1,1 +1,0 @@
-# Transradial-Prosthesis-CTRL-HW
