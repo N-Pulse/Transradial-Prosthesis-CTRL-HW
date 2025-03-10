@@ -42072,7 +42072,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "Control Board\n09.03.2025\ngithub : https://github.com/N-Pulse/Transradial-Prosthesis-CTRL-HW\nRef person:  Daniel Bach, daniel.bach@epfl.ch\n		 	Roman Danylovich, roman.danylovich@epfl.ch"
+	(gr_text "Control Board\n09.03.2025\ngithub : https://github.com/N-Pulse/Transradial-Prosthesis-CTRL-HW\nRef person:  Daniel Bach, daniel.bach@epfl.ch\n		 	Roman Danylovych, roman.danylovych@epfl.ch"
 		(at 178.38 89.66 0)
 		(layer "B.SilkS")
 		(uuid "31f148e0-bac9-4388-af90-242e3a02bb90")
