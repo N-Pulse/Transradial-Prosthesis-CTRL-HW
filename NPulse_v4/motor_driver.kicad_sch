@@ -20173,7 +20173,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SON50P200X200X80-9N"
+		(property "Footprint" "DRV8220DSGR:WSON8_DSG_TEX"
 			(at 198.12 190.17 0)
 			(effects
 				(font

@@ -5408,7 +5408,7 @@
 		)
 		(uuid "03e3b451-2dc9-4de7-a9ff-d51251dd9db5")
 	)
-	(text "NMOS : VSS138\nPMOS : VSS84"
+	(text "NMOS : VSS138\nPMOS : VSS84\n\n DMP2045UQ-7 \n DMN2053UQ-13 "
 		(exclude_from_sim no)
 		(at 247.65 127.254 0)
 		(effects
@@ -5557,7 +5557,7 @@
 		)
 		(uuid "7ee5c48c-6e0c-4318-bbe3-cbce9aa45715")
 	)
-	(text "Connecteur\n2842102-4\nMO: 571-2842102-4\n"
+	(text "Connecteur\n2842102-6\nMO: 571-2842102-6 \n"
 		(exclude_from_sim no)
 		(at 92.202 189.738 0)
 		(effects
@@ -5647,6 +5647,17 @@
 		)
 		(uuid "b769b512-ad7d-41a2-b3cf-c2e028e5b42b")
 	)
+	(text "Connecteur\n2842102-6\nMO: 571-2842102-6\n"
+		(exclude_from_sim no)
+		(at 192.786 79.248 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left)
+		)
+		(uuid "ba0a16d7-943e-420d-adbb-78dc284b556f")
+	)
 	(text "4 fils, alim, RX, TX, masse"
 		(exclude_from_sim no)
 		(at 49.276 194.31 0)
@@ -5691,17 +5702,6 @@
 		)
 		(uuid "cd9ccf5c-3695-4f46-80a7-3d9012089d4a")
 	)
-	(text "Connecteur\n2842102-4\nMO: 571-2842102-4\n"
-		(exclude_from_sim no)
-		(at 191.262 78.994 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-			)
-			(justify left)
-		)
-		(uuid "d5877059-5e17-4a42-b7d2-a691bf50bfbd")
-	)
 	(text "Timers for encoders"
 		(exclude_from_sim no)
 		(at 99.06 225.044 0)
@@ -5726,7 +5726,17 @@
 		)
 		(uuid "e8007630-74a2-428d-b988-b43f539f5642")
 	)
-	(text "Connector\nHTSW-106-07-FM-S \nMO:  200-HTSW10607FMS "
+	(text " 611-PCM12SMTBR \n"
+		(exclude_from_sim no)
+		(at 198.882 122.682 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e8b60b68-2de8-4cbc-8425-f8203023d8b4")
+	)
+	(text "Connector\n571-2842102-8 \nMO:   571-2842102-8 "
 		(exclude_from_sim no)
 		(at 36.576 145.796 0)
 		(effects
@@ -13904,7 +13914,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical_SMD_Pin1Left"
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical"
 			(at 190.5 86.36 0)
 			(effects
 				(font
@@ -14114,7 +14124,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical_SMD_Pin1Left"
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical"
 			(at 88.9 185.42 0)
 			(effects
 				(font
@@ -15207,7 +15217,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical_SMD_Pin1Left"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
 			(at 36.83 134.62 0)
 			(effects
 				(font
