@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "CON")(type "KiCad")(uri "/Users/daniel/pCloud Drive/EPFL/NPulse/Transradial-Prosthesis-CTRL-HW/components/LIB_1990041/1990041/KiCad")(options "")(descr ""))
+  (lib (name "CON_6")(type "KiCad")(uri "/Users/daniel/pCloud Drive/EPFL/NPulse/Transradial-Prosthesis-CTRL-HW/components/LIB_1725698/1725698/KiCad")(options "")(descr ""))
+)
