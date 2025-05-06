@@ -6010,6 +6010,12 @@
 		(uuid "ea0efb33-b0f1-4a75-9e90-7faf3660fd87")
 	)
 	(junction
+		(at 100.33 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f27e048e-eb94-406c-829f-602bedce553a")
+	)
+	(junction
 		(at 72.39 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6140,6 +6146,16 @@
 			(type default)
 		)
 		(uuid "0b69a4bb-32b9-4313-bf17-7c0ff4d941d6")
+	)
+	(wire
+		(pts
+			(xy 100.33 99.06) (xy 100.33 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b7beebb-9cce-4091-925f-fc844852c53c")
 	)
 	(wire
 		(pts
@@ -6663,7 +6679,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 99.06) (xy 120.65 99.06)
+			(xy 95.25 99.06) (xy 100.33 99.06)
 		)
 		(stroke
 			(width 0)
@@ -6770,6 +6786,16 @@
 			(type default)
 		)
 		(uuid "45892cb2-e705-4ea4-a8b5-0163d84dc726")
+	)
+	(wire
+		(pts
+			(xy 100.33 107.95) (xy 100.33 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4642295d-0cb3-4281-9b59-cb4ef783dfa9")
 	)
 	(wire
 		(pts
@@ -7540,6 +7566,16 @@
 			(type default)
 		)
 		(uuid "95a4146a-bccc-4887-a48f-f5e2173c21e6")
+	)
+	(wire
+		(pts
+			(xy 100.33 99.06) (xy 120.65 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9696451c-1fdf-40d7-9831-599769df54a1")
 	)
 	(wire
 		(pts
@@ -9987,7 +10023,7 @@
 	)
 	(global_label "EMG_RX"
 		(shape input)
-		(at 115.57 99.06 180)
+		(at 95.25 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9996,7 +10032,7 @@
 		)
 		(uuid "f486087d-9f9e-4822-8182-fdeb5b0ee6f4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.7573 97.79 0)
+			(at 68.4373 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10847,6 +10883,75 @@
 			(project "NPulse_v4"
 				(path "/1b9ce217-75d5-40c4-b78f-f756c7214a1a"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 100.33 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1c8c5d69-ea53-474a-9a03-28e6e681376d")
+		(property "Reference" "R37"
+			(at 101.854 103.378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 101.854 105.918 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 98.552 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 100.33 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64d9ec64-ab86-4a6d-aff3-52914939b265")
+		)
+		(pin "2"
+			(uuid "1e840fc5-9af3-405e-8bb1-5af06b2c4875")
+		)
+		(instances
+			(project "NPulse_v4"
+				(path "/1b9ce217-75d5-40c4-b78f-f756c7214a1a"
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -11895,6 +12000,72 @@
 			(project "NPulse_v4"
 				(path "/1b9ce217-75d5-40c4-b78f-f756c7214a1a"
 					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 100.33 109.22 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47ed0e27-878a-4713-b3ae-a17dd521c51e")
+		(property "Reference" "#PWR037"
+			(at 100.33 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 100.33 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 100.33 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5c0928b-99fb-47bc-b22b-235bf6bf35a9")
+		)
+		(instances
+			(project "NPulse_v4"
+				(path "/1b9ce217-75d5-40c4-b78f-f756c7214a1a"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)

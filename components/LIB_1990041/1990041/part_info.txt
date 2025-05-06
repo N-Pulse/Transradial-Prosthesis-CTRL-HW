@@ -1,0 +1,9 @@
+Manufacturer=Phoenix Contact
+PartNumber=1990041
+PartCategory=Connector
+PackageCategory=Other
+PinCount=6
+Version=3.2
+Released=2019-11-14 09:45:28
+Downloaded=2025-05-05 14:43:19
+3D=Y

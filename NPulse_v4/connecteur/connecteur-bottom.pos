@@ -1,0 +1,12 @@
+### Footprint positions - created on 2025-05-05T16:30:09+0200 ###
+### Printed by KiCad version 9.0.0
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val                  Package                                   PosX       PosY       Rot  Side
+J10       Conn_02x05_Odd_Even  PinSocket_2x05_P2.00mm_Vertical_SMD   157.9300   -92.3000  -90.0000  bottom
+J13       Conn_02x05_Odd_Even  PinSocket_2x05_P2.00mm_Vertical_SMD   154.3700  -112.3000   90.0000  bottom
+J32       Conn_02x05_Odd_Even  PinSocket_2x05_P2.00mm_Vertical_SMD   168.9400   -92.3000  -90.0000  bottom
+J35       Conn_02x05_Odd_Even  PinSocket_2x05_P2.00mm_Vertical_SMD   165.4100  -112.3100   90.0000  bottom
+J54       Conn_02x05_Odd_Even  PinSocket_2x05_P2.00mm_Vertical_SMD   179.9400   -92.2900  -90.0000  bottom
+J57       Conn_02x05_Odd_Even  PinSocket_2x05_P2.00mm_Vertical_SMD   176.4200  -112.3100   90.0000  bottom
+## End

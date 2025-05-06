@@ -1,0 +1,131 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "1990041"
+   (description "PCB terminal block, nominal current: 2 A, rated voltage (III/2): 250 V, nominal cross section: 0.5 mm, number of potentials: 6, number of rows: 1, number of positions per row: 6, product range: PTSA 0,5, pitch: 2.5 mm, connection method: Push-in spring connection, mounting: Wave soldering, conductor/PCB connection direction: 45 , color: green, Pin layout: Zigzag pinning W, Solder pin [P]: 3.6 mm, number of solder pins per potential: 1, type of packaging: packed in cardboard. Offset soldering legs, two-row")
+   (family "CON")
+   (package "1990041")
+   (attribute "Datasheet Link" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-2/sf-00059273.pdf")
+   (attribute "Geometry.Height" "13.1mm")
+   (attribute "Mouser Part Number" "651-1990041")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1990041?qs=eiqBpq341KWfl%252B1fhZg0IQ%3D%3D")
+   (attribute "Manufacturer_Name" "Phoenix Contact")
+   (attribute "Manufacturer_Part_Number" "1990041")
+   (gate
+    (symbol "1990041")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "3" 3 PS)
+    (pin "4" 4 PS)
+    (pin "5" 5 PS)
+    (pin "6" 6 PS)
+   )
+  )
+  (symbol "1990041"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 800 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "1990041"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt 14.5 2.3)
+      (pt -2 2.3)
+      (pt -2 -9.7)
+      (pt 14.5 -9.7)
+      (pt 14.5 2.3))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 14.5 2.3)
+      (pt -2 2.3)
+      (pt -2 -9.7)
+      (pt 14.5 -9.7)
+      (pt 14.5 2.3))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.5 3.3)
+      (pt 15.5 3.3)
+      (pt 15.5 -10.7)
+      (pt -3.5 -10.7)
+      (pt -3.5 3.3))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -2.5 0)
+      (arc (pt -2.500 0.000) (pt -2.500 -0.100) (pt -2.300 0.100) (start 180.0) (sweep 180.0))
+      (pt -2.3 0)
+      (arc (pt -2.300 0.000) (pt -2.500 -0.100) (pt -2.300 0.100) (start 180.0) (sweep .0))
+      (pt -2.5 0))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt 2.500 -5.000) (padstack 0))
+   (leg 3 (pt 5.000 0.000) (padstack 0))
+   (leg 4 (pt 7.500 -5.000) (padstack 0))
+   (leg 5 (pt 10.000 0.000) (padstack 0))
+   (leg 6 (pt 12.500 -5.000) (padstack 0))
+   (padstack 0
+    (hole 1)
+    (plated true)
+    (pad (layer TCOP) (round 1.500))
+    (pad (layer INNER) (round 1.500))
+    (pad (layer BCOP) (round 1.500))
+   )
+   (model "1990041.stp"
+    (euler 0 0 0)
+    (offset -1.2699999809265137 -9.729999542236328 -0.07000000029802322)
+   )
+  )
+ )
+)
