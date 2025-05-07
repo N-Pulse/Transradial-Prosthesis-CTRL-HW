@@ -513,7 +513,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerbers_hat/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
